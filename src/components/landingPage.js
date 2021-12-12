@@ -77,7 +77,7 @@ function LandingPage() {
                 </div>
 
             </div>
-            <div className="bg-white   page ">
+            <div className="bg-white l  page ">
                 {/*TEXTS*/}
 
 
