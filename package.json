@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "build": "CI= next build",
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
