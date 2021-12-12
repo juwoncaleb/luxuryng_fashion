@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "craco --openssl-legacy-provider start"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+
     },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
