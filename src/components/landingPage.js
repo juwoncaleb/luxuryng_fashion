@@ -8,8 +8,66 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import Footer from "./Footer";
 
 function LandingPage() {
+    let [swipeable, setSwipeable] = useState(true);
+
+    useEffect(() => {
+        if (images.length) {
+            function disableScroll() {
+                let carousel = document.querySelector('.carousel');
+
+                let startPos;
+                let endPos;
+                let isScrolling = 1;
+
+                function touchMove(e) {
+                    if (
+                        e.targetTouches.length > 1 ||
+                        (e.scale && e.scale !== 1) ||
+                        !startPos
+                    )
+                        return;
+
+                    var touch = e.targetTouches[0];
+
+                    endPos = {
+                        x: touch.pageX - startPos.x,
+                        y: touch.pageY - startPos.y
+                    };
+                    isScrolling =
+                        Math.abs(endPos.x) <= Math.abs(endPos.y)
+                            ? 1
+                            : 0; //When isScrolling is 1, it means vertical sliding and 0 is horizontal sliding
+                    if (isScrolling && swipeable) {
+                        setSwipeable(false);
+                    }
+                }
+
+                function touchEnd() {
+                    setSwipeable(true);
+                    carousel.removeEventListener(
+                        'touchmove',
+                        touchMove
+                    );
+                }
+
+                function touchStart(e) {
+                    var touch = e.targetTouches[0]; //The touches array object gets all the touches on the screen, taking the first touch
+                    startPos = {
+                        x: touch.pageX,
+                        y: touch.pageY
+                    };
+
+                    carousel.addEventListener('touchmove', touchMove);
+                }
+
+                carousel.addEventListener('touchstart', touchStart);
+                carousel.addEventListener('touchend', touchEnd);
+            }
 
 
+            disableScroll();
+        }
+    }, [images, swipeable]);
 
 
     return (
@@ -20,7 +78,9 @@ function LandingPage() {
                     <div className="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
 
 
-                    <Carousel preventMovementUntilSwipeScrollTolerance={false} useKeyboardArrows={true} stopOnHover={false} autoPlay infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} interval={4000}>
+                    <Carousel swipeable={swipeable}
+                        swipeScrollTolerance={30}
+                        useKeyboardArrows={true} stopOnHover={false} autoPlay infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} interval={4000}>
 
                         <div >
                             <img className="h-screen bg-cover bg-center object-cover" loading="lazy" src="/img/landingpage/1.jpg" />
@@ -199,7 +259,7 @@ function LandingPage() {
 
                 </div>
 
-            
+
 
 
 
