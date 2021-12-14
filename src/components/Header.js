@@ -20,8 +20,8 @@ function Header() {
     return (
 
 
-        <Navbar className="bg-white" expand="lg" sticky="top">
-            <Container fluid >
+        <Navbar className="bg-navbar " expand="lg" sticky="top">
+            <Container className="justify-evenly	" fluid >
 
                 {/* IMAGE ICON */}
                 <Navbar.Brand className="ml-10 mt-1" href="#">
@@ -39,40 +39,35 @@ function Header() {
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse className="ml-10" id="navbarScroll">
                     {/* SEARCH BAR */}
-                    <Form className="d-flex">
-                        <FormControl
-                            type="search"
-                            className="me-2"
-                            aria-label="Search"
-                        />
-                        <Button variant="outline-success"> search</Button>
-                    </Form>
 
 
-                    <Nav className=""  style={{ maxHeight: '100px' }} navbarScroll  >
+                    <Nav className="" style={{ maxHeight: '500px' }} navbarScroll  >
 
-                        <NavDropdown className="ml-10 mt-1 text-navbar text-base font-medium"  title="TOPS" id="basic-nav-dropdown">
-                            <NavDropdown.Item onClick={() => router.push('/Shirt')}  href="#action/3.1"><p className="text-navbar text-base font-medium">SHIRTS</p></NavDropdown.Item>
+
+
+                        <NavDropdown className="ml-10 mt-1 text-navbar text-base font-medium"
+                            title={<span className="text-warning my-auto">SHIRTS</span>} id="dropdown-button-dark-example1">
+                            <NavDropdown.Item onClick={() => router.push('/Shirt')} href="#action/3.1"><p className="text-navbar text-base font-medium">SHIRTS</p></NavDropdown.Item>
                             <NavDropdown.Item onClick={() => router.push('/Jacket')} href="#action/3.2"><p >JACKET</p></NavDropdown.Item>
-                            <NavDropdown.Item  onClick={() => router.push('/SweatShirt')} href="#action/3.3"><p className="text-navbar text-base font-medium">SWEATSHIRTS</p></NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => router.push('/SweatShirt')} href="#action/3.3"><p className="text-navbar text-base font-medium">SWEATSHIRTS</p></NavDropdown.Item>
                             <NavDropdown.Item onClick={() => router.push('/Hoodies')} href="#action/3.3"><p className="text-navbar text-base font-medium">HOODIE</p></NavDropdown.Item>
 
                         </NavDropdown>
-                        <NavDropdown className="ml-10 mt-1" title="PANTS" id="basic-nav-dropdown">
+                        <NavDropdown className="ml-10 mt-1" 
+                            title={<span className="text-warning my-auto">PANTS</span>} id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1"><p className="text-navbar text-base font-medium"> JEANS</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2"><p className="text-navbar text-base font-medium">JOGGERS</p></NavDropdown.Item>
-                            <NavDropdown.Item  onClick={() => router.push('/Shorts')} href="#action/3.3"><p className="text-navbar text-base font-medium">SHORTS</p></NavDropdown.Item>
-                            <NavDropdown.Divider />
+                            <NavDropdown.Item onClick={() => router.push('/Shorts')} href="#action/3.3"><p className="text-navbar text-base font-medium">SHORTS</p></NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown  className="ml-10 mt-1" title="FOOTWEAR" id="basic-nav-dropdown">
-                            <NavDropdown.Item  onClick={() => router.push('/Shoes')} href="#action/3.1"><p className="text-navbar text-base font-medium">SLIDES</p></NavDropdown.Item>
+                        <NavDropdown className="ml-10 mt-1" 
+                            title={<span className="text-warning my-auto">SHOES</span>} id="basic-nav-dropdown">
+                            <NavDropdown.Item onClick={() => router.push('/Shoes')} href="#action/3.1"><p className="text-navbar text-base font-medium">SLIDES</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2"><p className="text-navbar text-base font-medium">SNEAKER</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3"><p className="text-navbar text-base font-medium">COVER SHOES</p></NavDropdown.Item>
-                            <NavDropdown.Divider />
                         </NavDropdown>
-                        
-                        <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1" href="#action2"><p  className="text-navbar text-base font-medium">CAPS</p></Nav.Link>
-                        <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1" href="#action2"><p  className="text-navbar text-base font-medium">BRAND</p></Nav.Link>
+
+                        <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1" href="#action2"><p className="text-navbar text-base font-medium">CAPS</p></Nav.Link>
+                        <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1" href="#action2"><p className="text-navbar text-base font-medium">BRAND</p></Nav.Link>
 
 
                         {/* AUTHENTICATION */}

@@ -20,7 +20,7 @@ function LandingPage() {
                     <div className="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
 
 
-                    <Carousel useKeyboardArrows={true} stopOnHover={false} autoPlay infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} interval={4000}>
+                    <Carousel preventMovementUntilSwipeScrollTolerance={false} useKeyboardArrows={true} stopOnHover={false} autoPlay infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} interval={4000}>
 
                         <div >
                             <img className="h-screen bg-cover bg-center object-cover" loading="lazy" src="/img/landingpage/1.jpg" />
