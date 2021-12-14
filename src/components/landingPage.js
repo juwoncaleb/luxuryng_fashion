@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import Footer from "./Footer";
 
 function LandingPage() {
-    
+
 
     return (
         <div>
@@ -16,9 +16,18 @@ function LandingPage() {
                     <div className="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
 
 
-                    <Carousel 
-                        swipeScrollTolerance={100}
-                        useKeyboardArrows={true} stopOnHover={false} autoPlay infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} interval={4000}>
+                    <Carousel
+                     preventMovementUntilSwipeScrollTolerance={true}
+                    swipeScrollTolerance={100}
+
+                        useKeyboardArrows={true}
+                        stopOnHover={false}
+                        autoPlay
+                        infiniteLoop
+                        showArrows={false}
+                        showIndicators={false}
+                        showThumbs={false}
+                        interval={4000}>
 
                         <div >
                             <img className="h-screen bg-cover bg-center object-cover" loading="lazy" src="/img/landingpage/1.jpg" />
