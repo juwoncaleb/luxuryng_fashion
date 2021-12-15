@@ -21,18 +21,18 @@ function Header() {
 
 
         <Navbar className="bg-navbar " expand="lg" sticky="top">
-            <Container className="justify-evenly	" fluid >
+            <Container className="	" fluid >
 
                 {/* IMAGE ICON */}
                 <Navbar.Brand className="ml-10 mt-1" href="#">
 
-                    <Image onClick={() => router.push('/')} src="https://links.papareact.com/f90"
-                        width={150}
+                    <Image onClick={() => router.push('/')}
+                       src="/img/navlogo/png"
+                         width={150}
                         height={40}
                         objectFit="contain"
-                        className="cursor-pointer"
+                        className="cursor-pointer"/>
 
-                    />
                 </Navbar.Brand>
 
 
@@ -45,7 +45,7 @@ function Header() {
 
 
 
-                        <NavDropdown className="ml-10 mt-1 text-navbar text-base font-medium"
+                        <NavDropdown className="ml-52 mt-1 text-navbar text-base font-medium"
                             title={<span className="text-warning my-auto">SHIRTS</span>} id="dropdown-button-dark-example1">
                             <NavDropdown.Item onClick={() => router.push('/Shirt')} href="#action/3.1"><p className="text-navbar text-base font-medium">SHIRTS</p></NavDropdown.Item>
                             <NavDropdown.Item onClick={() => router.push('/Jacket')} href="#action/3.2"><p >JACKET</p></NavDropdown.Item>
@@ -53,13 +53,13 @@ function Header() {
                             <NavDropdown.Item onClick={() => router.push('/Hoodies')} href="#action/3.3"><p className="text-navbar text-base font-medium">HOODIE</p></NavDropdown.Item>
 
                         </NavDropdown>
-                        <NavDropdown className="ml-10 mt-1" 
+                        <NavDropdown className="ml-10 mt-1"
                             title={<span className="text-warning my-auto">PANTS</span>} id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1"><p className="text-navbar text-base font-medium"> JEANS</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2"><p className="text-navbar text-base font-medium">JOGGERS</p></NavDropdown.Item>
                             <NavDropdown.Item onClick={() => router.push('/Shorts')} href="#action/3.3"><p className="text-navbar text-base font-medium">SHORTS</p></NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown className="ml-10 mt-1" 
+                        <NavDropdown className="ml-10 mt-1"
                             title={<span className="text-warning my-auto">SHOES</span>} id="basic-nav-dropdown">
                             <NavDropdown.Item onClick={() => router.push('/Shoes')} href="#action/3.1"><p className="text-navbar text-base font-medium">SLIDES</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2"><p className="text-navbar text-base font-medium">SNEAKER</p></NavDropdown.Item>

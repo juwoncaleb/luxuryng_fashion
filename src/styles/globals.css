@@ -200,6 +200,19 @@
     background-position: 20px 0, 20px 0, 20px 0;
  }
 }
+iframe {
+  margin:auto;
+  display:block;
+}
+.customer{
+  position: relative;
+  bottom: 150px;
+}
+.giftext{
+  display: flex;
+  position: relative;
+  bottom: 180px;
+}
 .newbalance{
   align-items: center;
   justify-content: center;

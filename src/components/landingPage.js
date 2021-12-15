@@ -17,8 +17,8 @@ function LandingPage() {
 
 
                     <Carousel
-                     preventMovementUntilSwipeScrollTolerance={true}
-                    swipeScrollTolerance={100}
+                        preventMovementUntilSwipeScrollTolerance={true}
+                        swipeScrollTolerance={100}
 
                         useKeyboardArrows={true}
                         stopOnHover={false}
@@ -96,7 +96,7 @@ function LandingPage() {
                     <p className="text-center text-navbar text-base font-semibold md:text-5xl lg:text-5xl 	">We deliver </p>
 
 
-                    <iframe className="content-center" src="https://giphy.com/embed/SzBlFsQg26JL0s12P9" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed/SzBlFsQg26JL0s12P9" width="150" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 
                 </div>
@@ -104,28 +104,25 @@ function LandingPage() {
 
 
                 {/* CLOTHES */}
-                <div className="clothes content-center ">
-
-
-
+                <div className="clothes content-center ml-16 pl-1	 ">
                     <Image className="boxy bounce-1"
                         width={400}
                         height={300}
                         src="/img/travis/rot1.png"
                     />
+                    <Image className="boxy bounce-1"
+                        width={460}
+                        height={360}
+                        src="/img/fearOfGod/rot2.png"
+
+                    />
                     <Image
                         className=" boxy bounce-1"
                         width={400}
-                        height={300}
-                        src="/img/fearOfGod/rot2.png"
+                        height={400}
+                        src="/img/von.png"
                     />
-                    <Image
-                        className="boxy bounce-1"
-                        width={350}
-                        height={300}
-                        src="/img/travis/rot.png"
 
-                    />
 
                     <Image
                         className="boxy bounce-1 ml-5"
@@ -133,13 +130,7 @@ function LandingPage() {
                         height={360}
                         src="/img/travis/rott.png"
                     />
-                    <Image
-                        className="boxy bounce-1"
-                        width={370}
-                        height={360}
-                        src="/img/travis/rooo.png"
 
-                    />
                 </div>
 
 
@@ -180,7 +171,7 @@ function LandingPage() {
 
                 </div>
 
-                <div className="flex">
+                <div className="flex ">
                     <div className="adidasGif ">
                         <iframe src="https://giphy.com/embed/IAmwvEs4uVf8Y" width="100%" height="100%" frameBorder="0" allowFullScreen>
                         </iframe>
@@ -197,28 +188,17 @@ function LandingPage() {
 
                 </div>
 
-                <div className="flex">
-                    <p className=" adidas text-4xl pt-12 mt-32 " data-heading="Slide">ADIDAS</p>
+                <div className="giftext">
+                    <p className=" bottom-9 adidas text-lg md:text-5xl pt-12 mt-32 " data-heading="Slide">ADIDAS</p>
 
-                    <p className=" nikeboy text-4xl pt-12 mt-32 " data-heading="Slide">NIKE</p>
-                    <p className=" newbalance  text-4xl pt-12 mt-32">NEW BALANCE</p>
-
-
-                </div>
-
-
-
-
-
-
-                {/* SLIDE-SHOW OF CLOTHES */}
-                <div className="bg-landingPage grid page" >
-
+                    <p className=" nikeboy text-lg md:text-5xl pt-12 mt-32 " data-heading="Slide">NIKE</p>
+                    <p className=" newbalance  text-lg md:text-5xl pt-12 mt-32">NEW BALANCE</p>
 
 
                 </div>
 
-                <div className="bg-yellow-100 h-96	md:h-72		 ">
+
+                <div className="bg-yellow-100 h-96	md:h-72 customer ">
                     <Container className="mt-40	mx-auto	">
                         <Row >
                             <Col className="mt-40" xxl={4} xl={4} lg={4} md={4} sm={4}>
