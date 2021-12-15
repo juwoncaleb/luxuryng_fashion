@@ -1,14 +1,12 @@
 {
   "name": "with-redux-toolkit",
   "version": "1.0.0",
- 
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build"
-
-    },
+  },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "@reduxjs/toolkit": "1.5.0",
@@ -18,6 +16,7 @@
     "@tailwindcss/line-clamp": "^0.2.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.1.3",
+    "convert-svg-react": "^1.0.0-beta.8",
     "firebase": "^8.10.0",
     "firebase-admin": "^9.8.0",
     "gsap": "^3.8.0",

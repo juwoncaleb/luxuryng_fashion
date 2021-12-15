@@ -21,9 +21,9 @@ function CheckoutProduct({ id, image, name, price, size }) {
             <div classNane="product">
                 <Image src={image} width={400} height={400} objectFit="contain" />
                 <div className="">
-                    <p>{name}</p>
+                    <p className="text-center	">{name}</p>
                     <p>{id}</p>
-                    <p>{price}</p>
+                    <p className="text-center	">{price}</p>
                     <p>{size}</p>
                     <button className="button" onClick={removeItemFromBasket}>Remove from cart</button>
                 </div>

@@ -5,6 +5,8 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Footer from "./Footer";
 
+
+
 function LandingPage() {
 
 
@@ -201,7 +203,7 @@ function LandingPage() {
                 <div className="bg-yellow-100 h-96	md:h-72 customer ">
                     <Container className="mt-40	mx-auto	">
                         <Row >
-                            <Col className="mt-40" xxl={4} xl={4} lg={4} md={4} sm={4}>
+                            <Col className="" xxl={4} xl={4} lg={4} md={4} sm={4}>
                                 <img width="50px" src="/img/customer-service.png" />
                                 <p className=" text-black	 text-lg font-semibold pt-6">24/7 Customer service</p>
 
@@ -289,12 +291,13 @@ function LandingPage() {
             </div>
 
 
-            <script src="/slider.js" type="text/javascript"></script>
+            {/* <script src="/slider.js" type="text/javascript"></script> */}
 
         </div>
     )
 
 }
+
 
 export default LandingPage
 
