@@ -1,13 +1,14 @@
 import Header from "../components/Header"
 import JacketComp from "../components/JacketComp"
 
-
 function Jacket() {
     return (
         <div>
-            <Header/>
-            <JacketComp/>
+            <Header />
             
+                      
+             <JacketComp />
+
         </div>
     )
 }

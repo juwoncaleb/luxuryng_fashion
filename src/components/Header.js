@@ -26,12 +26,12 @@ function Header() {
                 {/* IMAGE ICON */}
                 <Navbar.Brand className="ml-10 mt-1" href="#">
 
-                    <Image onClick={() => router.push('/')}
-                       src="/img/navlogo/png"
-                         width={150}
-                        height={40}
-                        objectFit="contain"
-                        className="cursor-pointer"/>
+                 <Image
+                 onClick={() => router.push('/')}
+                 src="/img/logo.png"
+                 width={100}
+                 height={70}
+                 />
 
                 </Navbar.Brand>
 

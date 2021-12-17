@@ -2,162 +2,206 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    
-    .text{
-        @apply text-5xl	
-    }
-    .links{
-        @apply cursor-pointer hover:underline
-    }
-    .button{
-        @apply p-2 text-xs  md:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border-yellow-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-yellow-200
-    }
+@layer components {
+
+  .text {
+    @apply  text-5xl
+  }
+
+  .links {
+    @apply cursor-pointer hover:underline
+  }
+
+  
+}
+.button{
+  width: 150px;
+  height: 70px;
+  background-color: black;
+  color: wheat;
+
+}
+/* CLOTHE SIZE */
+.size{
+  background-color: black;
+  color: wheat;
+  padding: 12px;
 }
 
-
-.adidasGif{
+.adidasGif {
   width: 70%;
   height: 500px;
 
 }
+
 @media only screen and (max-width: 349px) {
   adidasGif {
-     width: 100px; 
-     height: 300px;  
+    width: 100px;
+    height: 300px;
   }
 }
-  .adidasGiffy{
-    width:100%;
-    height:0;
-    padding-bottom:133%;
-    position:relative;
-  }
-.nikegif{
+
+.adidasGiffy {
+  width: 100%;
+  height: 0;
+  padding-bottom: 133%;
+  position: relative;
+}
+
+.nikegif {
   width: 100vw;
   height: 500px;
 
 }
+
 @media only screen and (max-width: 349px) {
   .nikegif {
-     width: 100px; 
-     height: 100px;  
+    width: 100px;
+    height: 100px;
   }
 }
 
- .landingpagetext{
+.landingpagetext {
   font-size: clamp(1.5em, 4vw, 2.5em);
- }
+}
+
 .page2_sub_container {
-    display: flex;
-    width: 100%;
-    padding: 4% 2%;
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .box {
-    flex: 1;
-    overflow: hidden;
-    transition: .5s;
-    margin: 0 2%;
-    box-shadow: 0 20px 30px rgba(0,0,0,.1);
-    line-height: 0;
-    border: 5px solid #f00  }
-  
-  .box > img {
-    width: 200%;
-    height: calc(100% - 10vh);
-    object-fit: cover; 
-    transition: .5s;
-  }
-  
-  .box > span {
-    font-size: 3.8vh;
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+  line-height: 0;
+  border: 5px solid #f00
+}
+
+.box>img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: .5s;
+}
+
+.box>span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+  color: red;
+}
+
+.box:hover {
+  flex: 1 1 50%;
+}
+
+.box:hover>img {
+  width: 100%;
+  height: 100%;
+}
+
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+
+  &:before {
     display: block;
-    text-align: center;
-    height: 10vh;
-    line-height: 2.6;
-    color: red;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
   }
-  
-  .box:hover { flex: 1 1 50%; }
-  .box:hover > img {
+
+  >img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
   }
+}
 
 
-  @mixin aspect-ratio($width, $height) {
-    position: relative;
-      
-    &:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: ($height / $width) * 100%;
-    }
-      
-    > img {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          width: 100%;
-          height: 100%;
-    }
-  }
-  
-
- /* CLOTH LINEUP  */
+/* CLOTH LINEUP  */
 .boxy {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    
-    height: 300px;
-    
-    transform-origin: bottom;
-    width: 200px;
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  height: 300px;
+
+  transform-origin: bottom;
+  width: 200px;
 }
+
 .bounce-1 {
-    animation-name: bounce-1;
-    animation-timing-function: linear;
+  animation-name: bounce-1;
+  animation-timing-function: linear;
 }
+
 @keyframes bounce-1 {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
+
 .boxy1 {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    
-    height: 300px;
-    
-    transform-origin: bottom;
-    width: 200px;
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  height: 300px;
+
+  transform-origin: bottom;
+  width: 200px;
 }
+
 .bounce-2 {
-   
-    animation-name: bounce-1;
-    animation-timing-function: linear;
+
+  animation-name: bounce-1;
+  animation-timing-function: linear;
 }
+
 @keyframes bounce-1 {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
-.nike{
-  width:100%;
-  height:0;
-  padding-bottom:100%;
-  position:relative
+
+.nike {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative
 }
-.nikeboy{
+
+.nikeboy {
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -173,13 +217,15 @@
   background-position: 0 0;
   animation: stripes 1s linear infinite;
 }
+
 @keyframes stripes {
   100% {
     background-position: 20px 0, 20px 0, 20px 0;
- }
+  }
 }
-.adidas{
-    align-items: center;
+
+.adidas {
+  align-items: center;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -195,25 +241,30 @@
   animation: stripes 1s linear infinite;
 
 }
+
 @keyframes stripes {
   100% {
     background-position: 20px 0, 20px 0, 20px 0;
- }
+  }
 }
+
 iframe {
-  margin:auto;
-  display:block;
+  margin: auto;
+  display: block;
 }
-.customer{
+
+.customer {
   position: relative;
   bottom: 150px;
 }
-.giftext{
+
+.giftext {
   display: flex;
   position: relative;
   bottom: 180px;
 }
-.newbalance{
+
+.newbalance {
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -230,14 +281,16 @@ iframe {
   animation: stripes 1s linear infinite;
 
 }
-.navbar-toggler{
-  background-color: #feac5e !important; 
+
+.navbar-toggler {
+  background-color: #feac5e !important;
 }
 
 
-.c{
+.c {
   width: 50vw;
 }
+
 .footer {
   width: 100%;
   bottom: 0;
@@ -300,6 +353,7 @@ footer hr {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
   .footer .content,
   .footer {
     font-size: 14px;
@@ -311,14 +365,13 @@ footer hr {
     position: unset;
   }
 }
-.container{
-  
+
+.container {}
+
+.but {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.but{
   width: 270px;
   height: 80px;
   border: none;
@@ -328,47 +381,75 @@ footer hr {
   font-size: 22px;
   border-radius: 40px;
   text-align: center;
-  box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-.check-box{
+.check-box {
   width: 80px;
   height: 80px;
   border-radius: 40px;
-  box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   right: -40px;
   opacity: 0;
 }
 
-.check-box svg{
+.check-box svg {
   width: 40px;
   margin: 20px;
 }
 
 
-/* .active{
-  background: #ff2b75;
-  transition: 1s;
-} */
 
-.active .check-box{
+
+.active .check-box {
   right: 0;
   opacity: 1;
   transition: 1s;
 }
 
-.active p{
+.active p {
   margin-right: 125px;
   transition: 1s;
 }
 
-.active svg path{
+.active svg path {
   stroke-dashoffset: 0;
   transition: 1s;
   transition-delay: 1s;
+}
+
+/* SEARCH BAR BUTTON */
+.search{
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+input {
+  
+   padding: 0.5em;
+  font-size: 50px !important;
+  border: 0;
+  border-bottom: 2px solid #333333;
+  width: 40%;
+  -webkit-box-shadow: none;
+  box-shadow: 0;
+  color: #8f5314;
+  outline: none;
+  height: 70px;
+
+
+
+}
+.producttext{
+  position: relative;
+  right: 150px ;
+}
+
+input:focus {
+  border-bottom-color: #8f5314;
 }

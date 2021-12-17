@@ -16,7 +16,7 @@ function Items({ id, name, price, size, image }) {
             btnText.innerHTML = "Added";
             btn.classList.add("active");
         };
-    }, []);
+    });
 
 
 
@@ -33,18 +33,19 @@ function Items({ id, name, price, size, image }) {
 
         dispatch(addToBasket(product))
     }
-
+   
 
     return (
-        <div className="relative flex flex-col m-5 bg-white z-30 p-10">
-            <img onClick={() => router.push('/Description')} src={image} height={400} width={400} objectFit="contain" className="cursor-pointer" />
-            <p className="my-3 pr-5 text-center	">{name}</p>
-            <p className="mb-5 text-center	">{size}</p>
-            <p className="mb-5 text-center	"> ${price}</p>
+        <div>
+
+            <div className="relative flex flex-col m-5 bg-white z-30 p-10">
+
+                <img src={image} height={400} width={400} objectFit="contain" className="cursor-pointer" />
+                <p className="my-3 pr-5 text-center	">{name}</p>
+                <p className="mb-5 text-center	"> ${price}</p>
 
 
-            <div class="container">
-                <button className="but" id="btn">
+                <button onClick={addItemToBasket} className="but ml-10" id="btn">
                     <p id="btnText">Add to cart</p>
                     <div class="check-box">
                         <svg style={{ style: 3, stroke: "white", strokeDasharray: 34, strokeDashoffset: 34, strokeLinecap: "round" }}
@@ -53,9 +54,10 @@ function Items({ id, name, price, size, image }) {
                         </svg>
                     </div>
                 </button>
-            </div>
-        </div>
 
+            </div>
+
+        </div>
 
 
 

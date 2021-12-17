@@ -1,10 +1,10 @@
 const products = [
   {
     id: '0',
-    name: 'Nike Slim Shirt',
+    name: 'CACTUS',
     category: 'Shirts',
     image: '/img/travis/4.jpg',
-    price: 120,
+    price: 15000,
     brand: 'Nike',
     rating: 4.5,
     size: 10,
@@ -15,7 +15,7 @@ const products = [
     name: 'Adidas Fit Shirt',
     category: 'Shirts',
     image: '/img/travis/5.jpg',
-    price: 100,
+    price: 15000,
     brand: 'Adidas',
     rating: 4.0,
     size: 10,
@@ -26,7 +26,7 @@ const products = [
     name: 'Lacoste Free Shirt',
     category: 'Shirts',
     image: '/img/travis/3.jpg',
-    price: 220,
+    price: 15000,
     brand: 'Lacoste',
     rating: 4.8,
     size: 17,
@@ -66,5 +66,6 @@ const products = [
     description: 'high quality product',
   },
 ]
+
 
 export default products;
