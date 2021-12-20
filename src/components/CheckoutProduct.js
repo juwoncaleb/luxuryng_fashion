@@ -25,29 +25,34 @@ console.log(id);
 
     return (
         <div>
-            <div classNane="product">
+            <div className="product">
                 <Image className="" src={image} width={400} height={400} objectFit="contain" />
                 <div className="">
-                    <p className="text-center  relative	right-10 md:right-32">{name}</p>
-                    <p className="text-center	relative right-10 md:right-32">{price}</p>
+                    <p className="text-center relative left-3 t   font-extrabold	">{name}</p>
+                    <p className="text-center relative left-3 t	 font-extrabold "> N {price}</p>
 
-                    <button className="size relative left-32	 md:left-32"> XL</button>
-                    <button className="size relative left-32	 md:left-32"> L</button>
-                    <button className="size relative left-32	 md:left-32"> M</button>
-                    <button className="size relative left-32	 md:left-32"> S</button>
+                    <button className="size relative left-32 t font-semibold	 md:left-32"> XL</button>
+                    <button className="size relative left-32 font-semibold	t md:left-32"> L</button>
+                    <button className="size relative left-32 t font-semibold	 md:left-32"> M</button>
+                    <button className="size relative left-32	font-semibold t md:left-32"> S</button>
 
                     {/* COUNTER */}
-                    <p className="text-center  relative	right-10 md:right-32">QUANTITY : {count}</p>
-                    <button className="button relative left-32	 md:left-32" onClick={() => {
+                    <br/>
+                    <br/>
+
+
+                    <p className="text-center  relative	right-10 t font-semibold md:right-32">QUANTITY : {count}</p>
+
+                    {/* <button className="button relative left-32	 md:left-32" onClick={() => {
                         setCount(count + 1)
-                    }}> increase</button>
+                    }}> + </button>
                     <button className="button relative left-32	 md:left-32" onClick={() => {
                         setCount(count - 1)
-                    }}> decrease</button>
+                    }}> - </button> */}
                     <br />
-                    <br />BP
+                    <br />
 
-                    <button className="button relative left-32	 md:left-32" onClick= { () => removeItemFromBasket(id)}>Remove from cart</button>
+                    <button className="button relative left-32 t font-semibold	 md:left-32" onClick= { () => removeItemFromBasket(id)}>Remove from cart</button>
                 </div>
 
 

@@ -41,8 +41,8 @@ function Items({ id, name, price, size, image }) {
             <div className="relative flex flex-col m-5 bg-white z-30 p-10">
 
                 <img src={image} height={400} width={400} objectFit="contain" className="cursor-pointer" />
-                <p className="my-3 pr-5 text-center	">{name}</p>
-                <p className="mb-5 text-center	"> ${price}</p>
+                <p className="my-3 pr-5 text-center display	">{name}</p>
+                <p className="mb-5 text-center display	"> ${price}</p>
 
 
                 <button onClick={addItemToBasket} className="but ml-10" id="btn">

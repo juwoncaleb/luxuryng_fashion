@@ -18,10 +18,7 @@ function Checkout() {
         <div >
             <Header />
             <main >
-                <div className="bg-gray-100">
-                    <p className="text-center text">{items.length === 0 ? "Your luxury Basket is empty " : "Luxury Basket"}</p>
-
-                </div>
+                
 
 
                 <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">

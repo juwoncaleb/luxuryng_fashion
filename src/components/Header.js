@@ -21,7 +21,7 @@ function Header() {
 
 
         <Navbar className="bg-navbar " expand="lg" sticky="top">
-            <Container className="justify-evenly	" fluid >
+            <Container className="justify-evenly header	" fluid >
 
                 {/* IMAGE ICON */}
                 <Navbar.Brand className="ml-10 mt-1" href="#">
@@ -83,9 +83,9 @@ function Header() {
 
                         <Nav.Link className="ml-10 mt-1" href="#action1">
                             <div onClick={() => router.push('/checkout')} className="cursor-pointer  relative links flex items-center">
-                                <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-400 text-center rounded-full text-black font-bold"> {items.length} </span>
-                                <ShoppingCartIcon className="h-10" />
-                                <p className="text-navbar hidden md:inline font-extrabold md:text-sm mt-2">Basket</p>
+                                <span className="absolute top-0 right-0 md:right-10 h-4 w-4  text-center  text-white text-2xl font-bold"> {items.length} </span>
+                                <ShoppingCartIcon className="h-10 bg-white" />
+                                <p className="text-navbar hidden md:inline font-extrabold md:text-sm mt-2 ml-16"></p>
                             </div>
 
                         </Nav.Link>

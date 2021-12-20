@@ -98,7 +98,7 @@ function LandingPage() {
                     <p className="text-center text-navbar text-base font-semibold md:text-5xl lg:text-5xl 	">We deliver </p>
 
 
-                    <iframe src="https://giphy.com/embed/SzBlFsQg26JL0s12P9" width="150" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <iframe src="https://giphy.com/embed/SzBlFsQg26JL0s12P9" width="100" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 
                 </div>
@@ -200,29 +200,31 @@ function LandingPage() {
                 </div>
 
 
-                <div className="bg-yellow-100 h-96	md:h-72 customer ">
-                    <Container className="mt-40	mx-auto	">
-                        <Row >
-                            <Col className="" xxl={4} xl={4} lg={4} md={4} sm={4}>
-                                <img width="50px" src="/img/customer-service.png" />
-                                <p className=" text-black	 text-lg font-semibold pt-6">24/7 Customer service</p>
+                <div className="bg-yellow-100 h-96	md:h-72 customer  ">
 
-                            </Col>
-                            <Col xxl={4} xl={4} lg={4} md={4} sm={4}>
-                                <img width="50px" src="/img/delivery.png" />
-                                <p className=" text-black	  text-lg font-semibold pt-6"> Fast Delivery</p>
+                   
+                        <div className="terms">
+                            <img width="50px" src="/img/customer-service.png" />
+                            <p className=" text-black	 text-lg font-semibold pt-6">24/7 Customer  <br/> service</p>
+                        </div>
 
-                            </Col>
-                            <Col xxl={4} xl={4} lg={4} md={4} sm={4}>
-                                <img width="50px" src="/img/payment-method.png" />
-                                <p className=" text-black	 text-lg font-semibold pt-6">Secure Online Payment</p>
+                        <div className="terms">
+                            <img width="50px" src="/img/delivery.png" />
+                            <p className=" text-black	  text-lg font-semibold pt-6"> Fast  <br/> Delivery</p>
 
-                            </Col>
-                        </Row>
-                    </Container>
+
+                        </div>
+
+                        <div className="terms">
+                            <img width="50px" src="/img/payment-method.png" />
+                            <p className=" text-black	 text-lg font-semibold pt-6">Secure Online <br/> Payment</p>
+
+                        </div>
+
+                   
+
+
                 </div>
-
-
             </div>
             {/* 
             <Footer/> */}
