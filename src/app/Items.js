@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { addToBasket } from "../slices/basketSlice";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 import { useRouter } from "next/router";
@@ -28,6 +28,7 @@ function Items({ id, name, price, size, image }) {
 setActive('active')
         dispatch(addToBasket(product))
     }
+   
    
 
     return (

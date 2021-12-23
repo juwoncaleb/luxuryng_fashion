@@ -11,17 +11,8 @@ function Checkout() {
     const items = useSelector(selectItems);
     const total = useSelector(selectTotal)
     const [session] = useSession();
-    const redirect = () => {
-        if (session) {
-            onclick(console.log("we dey"))
 
-        } else {
-            onclick(signIn)
-
-        }
-
-    }
-    {!session ? 'Sign in to checkout' : "Proceed to checkOut"}
+    // {!session ? 'Sign in to checkout' : "Proceed to checkOut"}
 
     return (
         <div >
@@ -42,8 +33,11 @@ function Checkout() {
                         />
                     ))}
                 </div>
+                <br/>
+                <br/>
+                <br/>
 
-                <div className="flex  bg-white p-10 shadow-md">
+                <div className="flex sub  ml-16 items-center bg-white shadow-md">
                     {items.length > 0 && (
                         <>
                             <h2>Subtotal
@@ -53,8 +47,16 @@ function Checkout() {
                                     <Currency quantity={total} currency="GBP" /> </span> </h2>
 
 
-                            <button role="link"      
-                                onClick={redirect} className={`button mt-2  font-semibold pl-5 pr-5 `}>
+                            <button role="link"
+                                onClick={signIn} className={`button mt-2  font-semibold pl-5 pr-5 `}>
+                                    SIGN IN
+                            </button>
+                            <button
+                                disabled={!session} className={`button mt-2 ${!session && 'from-gray-300 to-gray-500 border-gray-200 text-gray-300 cursor cursor-not-allowed'}`}
+                            >
+                                {!session ? "signin to checkout" : "Pay with card"}
+
+
                             </button>
                         </>
                     )}
