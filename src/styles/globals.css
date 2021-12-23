@@ -19,17 +19,28 @@ body{
 }
 
 .button{
-  width: 150px;
+  width: 100px;
   height: 70px;
   background-color: black;
   color: wheat;
 
+}
+
+
+
+
+.button p{
+  font-size: 30px;
 }
 /* CLOTHE SIZE */
 .size{
   background-color: black;
   color: wheat;
   padding: 12px;
+}
+.newSize{
+  background-color:white
+  
 }
 
 .adidasGif {
@@ -64,6 +75,27 @@ body{
     height: 100px;
   }
 }
+@media only screen and (max-width: 2560px) {
+  .checkoutText {
+    margin-left:170px;
+  
+  display:inline-block;
+  text-align: center;
+
+  }
+}
+@media only screen and (max-width: 320px) {
+  .checkoutText {
+    position:relative;
+    right:100px;
+  color:blue;
+  display:inline-block;
+  text-align: center;
+
+  }
+}
+
+
 
 .landingpagetext {
   font-size: clamp(1.5em, 4vw, 2.5em);

@@ -1,23 +1,18 @@
 import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { addToBasket } from "../slices/basketSlice";
-import { useEffect } from "react";
+import { useState } from "react";
 
 
 import { useRouter } from "next/router";
 
 function Items({ id, name, price, size, image }) {
 
-    useEffect(() => {
-        const btn = document.querySelector("#btn");
-        const btnText = document.querySelector("#btnText");
+    
+      
+   
 
-        btn.onclick = () => {
-            btnText.innerHTML = "Added";
-            btn.classList.add("active");
-        };
-    });
-
+    const [active, setActive] = useState('')
 
 
     const router = useRouter();
@@ -30,7 +25,7 @@ function Items({ id, name, price, size, image }) {
             size,
             price,
         };
-
+setActive('active')
         dispatch(addToBasket(product))
     }
    
@@ -45,7 +40,7 @@ function Items({ id, name, price, size, image }) {
                 <p className="mb-5 text-center display	"> ${price}</p>
 
 
-                <button onClick={addItemToBasket} className="but ml-10" id="btn">
+                <button onClick={addItemToBasket} className={`but ml-10 ${active} `}>
                     <p id="btnText">Add to cart</p>
                     <div class="check-box">
                         <svg style={{ style: 3, stroke: "white", strokeDasharray: 34, strokeDashoffset: 34, strokeLinecap: "round" }}
