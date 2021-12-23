@@ -3,11 +3,20 @@
 
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
+import { signIn, signOut, useSession } from "next-auth/client"
+import { useRouter } from "next/router";
+
+
+
+
 import { selectItems, selectTotal, removeFromBasket } from "../slices/basketSlice";
 
 import React, { useState } from "react";
 
 function CheckoutProduct({ id, image, name, price, size }) {
+    const [session] = useSession();
+    const router = useRouter();
+    const items = useSelector(selectItems)
 
     const [buttonColor, setButtonColor] = useState("black")
     const [font, setFont] = useState("wheat")
@@ -46,29 +55,35 @@ function CheckoutProduct({ id, image, name, price, size }) {
                     <br />
                     <p className="text-center relative left-3 t	checkoutText font-extrabold "> N {price}</p>
                     <br />
-                    <button className="size relative left-32 t font-semibold	 md:left-32" style={isRed ? {backgroundColor: 'red'} : {backgroundColor: 'black'}}
-onClick={btncolor } > XL</button>
+                   <div className="sizeButton">
+                   <button className="size relative left-32 t font-semibold	 md:left-32" style={isRed ? {backgroundColor: 'red'} : {backgroundColor: 'black'}}
+                    onClick={btncolor } > XL</button>
                     <button className="size relative left-32 font-semibold	t md:left-32"  > L</button>
                     <button className="size relative left-32 t font-semibold	 md:left-32" > M</button>
                     <button className="size relative left-32	font-semibold t md:left-32"> S</button>
 
+                   </div>
+
                     {/* COUNTER */}
-                    <br />
                     <br />
 
 
                     <p className="text-center relative left-3 t	checkoutText font-extrabold">QUANTITY : {count}</p>
                     <br />
+                    
+
+                    <div className="increasebutton">
                     <button className="button relative left-32	 md:left-32" onClick={() => {
                         setCount(count + 1)
                     }}> <p>+</p></button>
                     <button className="button relative left-32	 md:left-32" onClick={() => {
                         setCount(count - 1)
                     }}> <p>-</p></button>
+                    </div>
                     <br />
                     <br />
 
-                    <button className="button relative left-32 t font-semibold	 md:left-32" id="cart" onClick={() => removeItemFromBasket(id)}>Remove from cart</button>
+                    <button className="button relative left-32 t font-semibold 	 md:left-32" id="cart" onClick={() => removeItemFromBasket(id)}>Remove from cart</button>
                 </div>
 
 

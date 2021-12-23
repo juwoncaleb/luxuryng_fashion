@@ -22,7 +22,7 @@ body{
   width: 100px;
   height: 70px;
   background-color: black;
-  color: wheat;
+  color: white;
 
 }
 
@@ -35,7 +35,7 @@ body{
 /* CLOTHE SIZE */
 .size{
   background-color: black;
-  color: wheat;
+  color: white;
   padding: 12px;
 }
 .newSize{
@@ -55,6 +55,13 @@ body{
     height: 300px;
   }
 }
+@media only screen and (max-width: 320PX) {
+  .clothes {
+    position: relative;
+    right: 27PX;
+  }
+}
+
 
 .adidasGiffy {
   width: 100%;
@@ -77,23 +84,28 @@ body{
 }
 @media only screen and (max-width: 2560px) {
   .checkoutText {
-    margin-left:170px;
+    margin-left:130px;
   
   display:inline-block;
   text-align: center;
 
   }
 }
-@media only screen and (max-width: 320px) {
-  .checkoutText {
-    position:relative;
-    right:100px;
-  color:blue;
-  display:inline-block;
-  text-align: center;
-
+@media only screen and (max-width: 375px) {
+  .sizeButton {
+position: relative;
+right: 34px;    
   }
 }
+@media only screen and (max-width: 375px) {
+  .increasebutton {
+position: relative;
+right: 50px;
+color: red;   
+  }
+}
+increasebutton
+
 
 
 
@@ -106,6 +118,10 @@ body{
   font-family: 'Montserrat', sans-serif;
   
 
+}
+.itemsText{
+  position: relative;
+  left: -25px;
 }
 /* DISPALY OF FEED */
 @media only screen and (min-width: 1787px) {
@@ -442,6 +458,7 @@ footer hr {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
 
 .check-box {
@@ -480,12 +497,52 @@ footer hr {
   transition-delay: 1s;
 }
 
-/* SEARCH BAR BUTTON */
-.search{
-  margin-left: 100px;
-  margin-right: 100px;
-  
+.form-search{
+  margin: 0 auto;
+  text-align: center;
+
+  font: bold 13px sans-serif;
+   max-width: 70%;
+  position: relative;
 }
+
+.form-search input{
+  width: 60%;
+  box-sizing: border-box;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  background-color:  #ffffff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 15px 14px 40px;
+  border: 1px solid #b6c3cd;;
+  border-right: 0;
+  color:#4E565C;
+  outline: none;
+  
+  -webkit-appearance: none;
+}
+
+.form-search button{
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color:  black;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #ffffff;
+  padding: 15px 22px;
+  margin-left: -4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.form-search i{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 6px;
+  color: #80A3BD;
+}
+
 input {
   
    padding: 0.5em;

@@ -21,19 +21,20 @@ function Header() {
 
 
         <Navbar className="bg-navbar " expand="lg" sticky="top">
-            <Container className="justify-evenly header	" fluid >
+            <Container className=" header	"  >
 
                 {/* IMAGE ICON */}
                 <Navbar.Brand className="ml-10 mt-1" href="#">
 
-                 <Image
-                 onClick={() => router.push('/')}
-                 src="/img/logo.png"
-                 width={100}
-                 height={70}
-                 />
+                    <Image
+                        onClick={() => router.push('/')}
+                        src="/img/logo.png"
+                        width={100}
+                        height={70}
+                    />
 
                 </Navbar.Brand>
+
 
 
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -42,6 +43,16 @@ function Header() {
 
 
                     <Nav className="" style={{ maxHeight: '500px' }} navbarScroll  >
+
+                        <Nav.Link className="ml-10 mt-1" href="#action1">
+
+                            <div onClick={() => router.push('/checkout')} className="cursor-pointer cart relative links flex items-center">
+                                <span className="absolute top-0 right-0 md:right-10 h-4 w-4  text-center  text-white text-2xl font-bold"> {items.length} </span>
+                                <br />
+                                <ShoppingCartIcon className="h-10 bg-white" />
+                                <p className="text-navbar hidden md:inline font-extrabold md:text-sm mt-2 ml-16"></p>
+                            </div>
+                        </Nav.Link>
 
 
 
@@ -81,17 +92,10 @@ function Header() {
 
                         {/* SHOPPING CART */}
 
-                        <Nav.Link className="ml-10 mt-1" href="#action1">
-                            <div onClick={() => router.push('/checkout')} className="cursor-pointer  relative links flex items-center">
-                                <span className="absolute top-0 right-0 md:right-10 h-4 w-4  text-center  text-white text-2xl font-bold"> {items.length} </span>
-                                <ShoppingCartIcon className="h-10 bg-white" />
-                                <p className="text-navbar hidden md:inline font-extrabold md:text-sm mt-2 ml-16"></p>
-                            </div>
-
-                        </Nav.Link>
                     </Nav>
 
                 </Navbar.Collapse>
+
             </Container>
         </Navbar>
 

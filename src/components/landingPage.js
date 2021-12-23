@@ -146,28 +146,28 @@ function LandingPage() {
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center text-navbar text-2xl font-semibold">Trainers</span>
+                            /><span className="text-center text-navbar text-2xl font-semibold">NIKE</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/model.png"
 
-                            /><span className="text-center text-navbar text-2xl font-semibold">Product</span>
+                            /><span className="text-center text-navbar text-2xl font-semibold">FEAR OF GOD</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center text-navbar text-2xl font-semibold">Testimony</span>
+                            /><span className="text-center text-navbar text-2xl font-semibold">GUCCI</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/travis/rooo.png"
 
-                            /><span className="text-center text-navbar text-2xl font-semibold">Earn</span>
+                            /><span className="text-center text-navbar text-2xl font-semibold">ADER</span>
                         </div>
                     </div>
 
