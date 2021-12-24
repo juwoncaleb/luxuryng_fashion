@@ -14,7 +14,7 @@ export const basketSlice = createSlice({
 
 
       state.items = [...state.items, action.payload]
-const basket = state.items
+ state.items
 
     },
 
