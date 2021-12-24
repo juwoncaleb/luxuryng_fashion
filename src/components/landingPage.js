@@ -91,11 +91,11 @@ function LandingPage() {
 
 
                 <div className=" ">
-                    <p className="text-center text-navbar text-base font-semibold md:text-5xl lg:text-5xl ">Welcome to luxury Wears</p>
+                    <p className="text-center text-navbar text-lg	 font-semibold md:text-5xl lg:text-5xl ">Welcome to luxury Wears</p>
 
-                    <p className="text-center text-navbar text-base font-semibold md:text-5xl lg:text-5xl 	">Your one stop shop for High-end streetwear</p>
-                    <p className="text-center text-navbar text-base font-semibold md:text-5xl lg:text-5xl 	">Open Mon - Saturday (10am-6pm)</p>
-                    <p className="text-center text-navbar text-base font-semibold md:text-5xl lg:text-5xl 	">We deliver </p>
+                    <p className="text-center text-navbar text-lg	 font-semibold md:text-5xl lg:text-5xl 	">Your one stop shop for High-end streetwear</p>
+                    <p className="text-center text-navbar text-lg	 font-semibold md:text-5xl lg:text-5xl 	">Open Mon - Saturday (10am-6pm)</p>
+                    <p className="text-center text-navbar text-lg	 font-semibold md:text-5xl lg:text-5xl 	">We deliver </p>
 
 
                     <iframe src="https://giphy.com/embed/SzBlFsQg26JL0s12P9" width="100" height="120" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -106,7 +106,7 @@ function LandingPage() {
 
 
                 {/* CLOTHES */}
-                <div className="clothes content-center ml-16 pl-1	 ">
+                <div className="clothes content-center ml-16 pl-2	 ">
                     <Image className="boxy bounce-1"
                         width={400}
                         height={300}
@@ -122,7 +122,7 @@ function LandingPage() {
                         className=" boxy bounce-1"
                         width={400}
                         height={400}
-                        src="/img/von.png"
+                        src="/img/caps/vondutch/von5.png"
                     />
 
 
