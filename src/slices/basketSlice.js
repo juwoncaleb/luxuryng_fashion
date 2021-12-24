@@ -14,12 +14,11 @@ export const basketSlice = createSlice({
 
 
       state.items = [...state.items, action.payload]
- state.items
+  
 
     },
 
     removeFromBasket:(state, action) =>{
-       console.log(action , "jhj");
       let newBasket = state.items.filter(({id}) => id != action.payload.id);
 
       state.items = newBasket;

@@ -1,13 +1,12 @@
 import Image from "next/image";
-
-import products from "../product/MenShoes/MenShoes";
+import vondutch from "../product/Caps/Vondutch";
 import Items from "../app/Items";
 
 function CapsComp() {
     return (
         <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
         {
-            products.map(({id, name, price, size, image }) => {
+            vondutch.map(({id, name, price, size, image }) => {
                 return <Items
                     key={id}
                     id={id}

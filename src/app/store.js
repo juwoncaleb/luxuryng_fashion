@@ -1,8 +1,7 @@
-import { configureStore } from "@reduxjs/toolkit";
-import basketReducer from "../slices/basketSlice";
+import { createStore } from "redux";
+import rootReducer from "./rootReducers";
+import { persistStore } from "redux-persist";
 
-export const store = configureStore({
-  reducer: {
-    basket: basketReducer,
-  },
-});
+export const store = createStore(rootReducer);
+
+export const persistor = persistStore(store);
