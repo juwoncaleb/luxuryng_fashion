@@ -42,7 +42,7 @@ function Payment() {
                         <textarea name="message" placeholder="Optional message" id="message_input" cols="30" rows="5" required></textarea>
                     </div>
                     <div class="submit">
-                        <input type="submit" value="Proceed to payment " id="form_button" />
+                        <input type="submit" value="PAY " id="form_button" />
                     </div>
                 </form>
             </div>
