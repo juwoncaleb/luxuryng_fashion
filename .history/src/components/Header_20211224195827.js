@@ -81,7 +81,15 @@ function Header() {
                         <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1" href="#action2"><p className="text-navbar text-base font-medium">BRAND</p></Nav.Link>
 
 
-                        
+                        {/* AUTHENTICATION */}
+                        <Nav.Link className="ml-10 mt-1" href="#action1">
+                            <div onClick={!session ? signIn : signOut} className="signIn cursor-pointer links">
+                                <p className=" text-navbar text-base font-medium"> {session ? ` ${session.user.name} ` : "SIGN IN "}  </p>
+
+
+                            </div>
+                        </Nav.Link>
+
                         {/* SHOPPING CART */}
 
                     </Nav>
