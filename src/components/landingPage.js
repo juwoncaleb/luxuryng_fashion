@@ -106,7 +106,7 @@ function LandingPage() {
 
 
                 {/* CLOTHES */}
-                <div className="clothes content-center ml-16 pl-2	 ">
+                <div className="clothes content-center ml-10 pl-2	 ">
                    <Image className="boxy "
                         width={400}
                         height={300}
