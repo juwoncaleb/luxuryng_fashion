@@ -85,7 +85,13 @@ body{
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .images {
+    width: 120px!important;
+    height: 350px!important;
 
+  }
+}
 @media only screen and (max-width: 410px) {
   .relative {
     

@@ -71,7 +71,7 @@ body{
 @media only screen and (max-width: 375px) {
   .cart {
     position: relative;
-    right: 13px;
+    right: 43px;
 
   }
 }
@@ -80,12 +80,9 @@ body{
     position: relative;
     top: 10px;
     bottom: 105px;
-    right: 60px;
 
   }
 }
-
-
 @media only screen and (max-width: 410px) {
   .relative {
     

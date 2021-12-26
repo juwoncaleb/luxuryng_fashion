@@ -80,12 +80,10 @@ body{
     position: relative;
     top: 10px;
     bottom: 105px;
-    right: 60px;
+    right: 30px;
 
   }
 }
-
-
 @media only screen and (max-width: 410px) {
   .relative {
     
