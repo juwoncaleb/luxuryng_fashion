@@ -161,14 +161,14 @@ function LandingPage() {
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center movy text-navbar text-2xl font-semibold">GUCCI</span>
+                            /><span className="text-center text-navbar text-2xl font-semibold">GUCCI</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/travis/rooo.png"
 
-                            /><span className="text-center movy text-navbar text-2xl font-semibold">ADER</span>
+                            /><span className="text-center text-navbar text-2xl font-semibold">ADER</span>
                         </div>
                     </div>
 
@@ -256,7 +256,7 @@ function LandingPage() {
                             <a href="https://twitter.com/Sanket46171296"
                             ><i class="fab fa-twitter"></i>  <br />
 
-                            </a
+                            Twitter</a
                             >
                         </p>
 
@@ -264,7 +264,7 @@ function LandingPage() {
                         <p>
                             <a href="https://www.instagram.com/imsanketbodke/?hl=en"
                             ><i class="fab fa-instagram"> </i> <br />
-                                
+                                INSTAGRAM
                             </a
                             >
                         </p>

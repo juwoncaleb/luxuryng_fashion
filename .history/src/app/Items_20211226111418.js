@@ -32,16 +32,16 @@ setActive('active')
    
 
     return (
-        <div className="relative">
+        <div>
 
-            <div className="  flex-col m-5 bg-white z-30 p-10">
+            <div className="relative flex flex-col m-5 bg-white z-30 p-10">
 
                 <img src={image} height={400} width={400} objectFit="contain" className="cursor-pointer" />
                 <p className=" itemsText  t font-semibold text-center display	">{name}</p>
                 <p className="itemsText t font-semibold text-center display	"> N{price}</p>
 
 
-                <button onClick={addItemToBasket} className={`but ml-10 ${active} `}>
+                <button onClick={addItemToBasket} className={` ml-10 ${active} `}>
                     <p id="btnText">Add to cart</p>
                     <div class="check-box">
                         <svg style={{ style: 3, stroke: "white", strokeDasharray: 34, strokeDashoffset: 34, strokeLinecap: "round" }}

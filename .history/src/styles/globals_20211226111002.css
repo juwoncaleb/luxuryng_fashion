@@ -61,12 +61,6 @@ body{
     right: 63px;
   }
 }
-@media only screen and (max-width: 375px) {
-  .relative {
-   display: inline-block;
-   
-  }
-}
 
 @media only screen and (max-width: 375px) {
   .cart {
@@ -189,13 +183,12 @@ right: 200px;
 }
 
 .box>span {
-  font-size: 2.1vh;
+  font-size: 1.8vh;
   display: block;
   text-align: center;
   height: 10vh;
   line-height: 2.6;
   color: red;
-  font-weight: bold;
 }
 
 .box:hover {
@@ -733,8 +726,6 @@ input {
   position: relative;
   right: 150px ;
 }
-
-
 
 input:focus {
   border-bottom-color: #8f5314;

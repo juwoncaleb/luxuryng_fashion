@@ -61,12 +61,6 @@ body{
     right: 63px;
   }
 }
-@media only screen and (max-width: 375px) {
-  .relative {
-   display: inline-block;
-   
-  }
-}
 
 @media only screen and (max-width: 375px) {
   .cart {

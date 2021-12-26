@@ -34,20 +34,16 @@ function Header() {
                     />
 
                 </Navbar.Brand>
+               
                 <Nav.Link className="ml-10 mt-1" href="#action1">
 
                     <div onClick={() => router.push('/checkout')} className="cursor-pointer cart relative links flex items-center">
-                        <span className="absolute ml-18 top-0 right-0 md:right-10 h-4 w-4    text-white text-2xl font-bold"> {items.length} </span>
+                        <span className="absolute top-0 right-0 md:right-10 h-4 w-4  text-center  text-white text-2xl font-bold"> {items.length} </span>
                         <br />
-                        <br />
-                        <br />
-                        <br />
-
                         <ShoppingCartIcon className="h-10 bg-white" />
+                        <p className="text-navbar hidden md:inline font-extrabold md:text-sm mt-2 ml-16"></p>
                     </div>
                 </Nav.Link>
-
-                
 
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse className="ml-10" id="navbarScroll">

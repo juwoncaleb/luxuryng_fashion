@@ -256,7 +256,7 @@ function LandingPage() {
                             <a href="https://twitter.com/Sanket46171296"
                             ><i class="fab fa-twitter"></i>  <br />
 
-                            </a
+                            Twitter</a
                             >
                         </p>
 
@@ -264,7 +264,7 @@ function LandingPage() {
                         <p>
                             <a href="https://www.instagram.com/imsanketbodke/?hl=en"
                             ><i class="fab fa-instagram"> </i> <br />
-                                
+                                INSTAGRAM
                             </a
                             >
                         </p>

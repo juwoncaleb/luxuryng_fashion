@@ -63,8 +63,8 @@ body{
 }
 @media only screen and (max-width: 375px) {
   .relative {
-   display: inline-block;
-   
+    position: relative;
+    right: 63px;
   }
 }
 
