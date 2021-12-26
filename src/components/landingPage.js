@@ -106,7 +106,7 @@ function LandingPage() {
 
 
                 {/* CLOTHES */}
-                <div className="clothes content-center ml-16 pl-2	 ">
+                <div className="clothes content-center ml-10 pl-2	 ">
                    <Image className="boxy "
                         width={400}
                         height={300}
@@ -147,28 +147,28 @@ function LandingPage() {
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center movy text-navbar text-base font-semibold">NIKE</span>
+                            /><span className="text-center text-navbar text-base font-semibold">NIKE</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/model.png"
 
-                            /><span className="text-center movy text-navbar text-2xl font-semibold">FEAR OF GOD</span>
+                            /><span className="text-center text-navbar text-base font-semibold">FEAR OF GOD</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center movy text-navbar text-2xl font-semibold">GUCCI</span>
+                            /><span className="text-center text-navbar text-base font-semibold">GUCCI</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/travis/rooo.png"
 
-                            /><span className="text-center movy text-navbar text-2xl font-semibold">ADER</span>
+                            /><span className="text-center text-navbar text-base font-semibold">ADER</span>
                         </div>
                     </div>
 
@@ -250,13 +250,13 @@ function LandingPage() {
                 <div class="content">
 
                     <div class="social-media">
-                        <h4>Social</h4>
+                        <h4 className="font-semibold">Social</h4>
 
                         <p>
                             <a href="https://twitter.com/Sanket46171296"
                             ><i class="fab fa-twitter"></i>  <br />
 
-                            </a
+                           </a
                             >
                         </p>
 
@@ -264,13 +264,13 @@ function LandingPage() {
                         <p>
                             <a href="https://www.instagram.com/imsanketbodke/?hl=en"
                             ><i class="fab fa-instagram"> </i> <br />
-                                
+                               
                             </a
                             >
                         </p>
                     </div>
                     <div class="links">
-                        <h4>Quick links</h4>
+                        <h4 className="font-semibold">Quick links</h4>
                         <p><a href="#">Terms Of Service</a></p>
                         <p><a href="#">Privacy Policy</a></p>
                         <p><a href="#">Return Policy</a></p>
@@ -279,7 +279,7 @@ function LandingPage() {
 
                     </div>
                     <div class="details">
-                        <h4 class="address">Address</h4>
+                        <h4 class="address font-semibold">Address</h4>
                         <p>
                             LAGOS ISLAND
                         </p>
@@ -305,11 +305,6 @@ function LandingPage() {
 
 
 export default LandingPage
-
-
-
-
-
 
 
 

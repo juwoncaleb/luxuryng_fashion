@@ -32,11 +32,14 @@ setActive('active')
    
 
     return (
-        <div className="relative">
+        <div>
+
 
             <div className="  flex-col m-5 bg-white z-30 p-10">
+            <div className="relative flex flex-col w-full m-5 bg-white z-30 p-10">
 
-                <img src={image} height={400} width={400} objectFit="contain" className="cursor-pointer" />
+
+                <img src={image} height={400} width={400}  objectFit="contain"   className="cursor-pointer" />
                 <p className=" itemsText  t font-semibold text-center display	">{name}</p>
                 <p className="itemsText t font-semibold text-center display	"> N{price}</p>
 
@@ -51,6 +54,7 @@ setActive('active')
                     </div>
                 </button>
 
+            </div>
             </div>
 
         </div>
