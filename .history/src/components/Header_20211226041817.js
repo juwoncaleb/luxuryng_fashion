@@ -47,27 +47,29 @@ function Header() {
                     </div>
                 </Nav.Link>
 
-                <Nav.Link className="ml-10 mt-1" href="#action1">
+<Nav.Link className="ml-10 mt-1" href="#action1">
 
-                    <div onClick={() => router.push('/checkout')} className="cursor-pointer cart relative links flex items-center">
-                        <span className="absolute top-0 right-0 md:right-10 h-4 w-4  text-center  text-white text-2xl font-bold"> {items.length} </span>
-                        <br />
-                        <ShoppingCartIcon className="h-10 bg-white" />
-                        <p className="text-navbar hidden md:inline font-extrabold md:text-sm mt-2 ml-16"></p>
-                    </div>
-                </Nav.Link>
+                            <div onClick={() => router.push('/checkout')} className="cursor-pointer cart relative links flex items-center">
+                                <span className="absolute top-0 right-0 md:right-10 h-4 w-4  text-center  text-white text-2xl font-bold"> {items.length} </span>
+                                <br />
+                                <ShoppingCartIcon className="h-10 bg-white" />
+                                <p className="text-navbar hidden md:inline font-extrabold md:text-sm mt-2 ml-16"></p>
+                            </div>
+                        </Nav.Link>
 
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse className="ml-10" id="navbarScroll">
+                    {/* SEARCH BAR */}
 
 
 
-
-
+<<<<<<< HEAD
                     <Nav className=" ham" style={{ maxHeight: '500px' }} navbarScroll  >
 
 
-
+=======
+                       
+>>>>>>> 03d16161c6468c0630b3ffa1c67f84de3191d52f
 
 
 
@@ -105,7 +107,7 @@ function Header() {
 
             </Container>
         </Navbar>
-
+<
 
 
 
