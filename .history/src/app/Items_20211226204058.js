@@ -32,18 +32,18 @@ setActive('active')
    
 
     return (
-        <div className="w-screen">
+        <div className="w-screeb">
 
 
-            <div className=" w-full	 flex-col m-0 md:m-5 bg-white z-30 p-10">
-            <div className="relative flex flex-col w-full m-0 md:m-5 bg-white z-30 p-10">
+            <div className=" 	 flex-col m-5 bg-white z-30 p-10">
+            <div className="relative flex flex-col w-full m-5 bg-white z-30 p-10">
 
                 <img src={image} height={375} width={375}  objectFit="contain"   className="cursor-pointer images" />
-                <p className=" itemsText  t font-semibold text-center display textt	">{name}</p>
+                <p className=" itemsText  t font-semibold text-center display	">{name}</p>
                 <p className="itemsText t font-semibold text-center display	"> N{price}</p>
 
 
-                <button onClick={addItemToBasket} className={`but ml-0 md:ml-10 ${active} `}>
+                <button onClick={addItemToBasket} className={`but  ${active} `}>
                     <p id="btnText">Add to cart</p>
                     <div class="check-box">
                         <svg style={{ style: 3, stroke: "white", strokeDasharray: 34, strokeDashoffset: 34, strokeLinecap: "round" }}

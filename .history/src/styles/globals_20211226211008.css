@@ -998,8 +998,7 @@ textarea {
 }
 @media screen and (max-width: 768px) {
   .send {
-   position: relative;
-   right: 20px;
+   rela
   }
 }
 

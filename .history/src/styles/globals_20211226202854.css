@@ -155,32 +155,14 @@ increasebutton
 }
 .itemsText{
   position: relative;
-  left: -75px;
+  left: -25px;
 }
-@media (max-width: 375px) {
-  .itemsText{
-   position: relative;
-   left: 5px;
-  }
-}
-@media (max-width: 414px) {
-  .itemsText{
-   position: relative;
-   left: 5px;
-  }
-}
-@media (max-width: 320px) {
-  .itemsText{
-   position: relative;
-   left: 10px;
-  }
-}
-
-
 /* DISPALY OF FEED */
-.textt{
-  position: relative;
-  right: 100px;
+@media only screen and (min-width: 1787px) {
+  .display {
+position: relative;
+right: 200px;
+  }
 }
 
 .page2_sub_container {
@@ -413,10 +395,19 @@ iframe {
  
 }
 
-
 @media (max-width: 375px) {
   .navbar-toggler{
-    
+    position: relative;
+    left: 300px;
+    bottom: 70px;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-toggler{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 70px;
   }
 }
 @media (max-width: 320px) {
@@ -613,8 +604,6 @@ footer hr {
 
   .but {
     margin: 0;
-    position: relative;
-    right: 100px;
   
   }
 }
@@ -629,7 +618,7 @@ footer hr {
 @media (max-width: 398px)  {
 
   .but {
-    margin: 0;
+    mar
    
    position: relative;
    right: 100px;
@@ -639,7 +628,6 @@ footer hr {
 @media (max-width: 414px)  {
 
   .but {
-    margin: 0;
   
    position: relative;
    right: 100px;
@@ -996,13 +984,6 @@ textarea {
     width: 95%;
   }
 }
-@media screen and (max-width: 768px) {
-  .send {
-   position: relative;
-   right: 20px;
-  }
-}
-
 
 @media screen and (max-width: 480px) {
   h1 {
@@ -1037,9 +1018,7 @@ textarea {
   }
 }
 
-
 .btt{
-  margin-bottom: 20px;
   display: inline-block;
   width:50%;
     margin-left:25%;

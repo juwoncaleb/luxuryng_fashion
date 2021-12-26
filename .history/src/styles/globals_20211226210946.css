@@ -997,12 +997,12 @@ textarea {
   }
 }
 @media screen and (max-width: 768px) {
-  .send {
-   position: relative;
-   right: 20px;
+  #container {
+    margin: 20px auto;
+    width: 95%;
   }
 }
-
+send
 
 @media screen and (max-width: 480px) {
   h1 {

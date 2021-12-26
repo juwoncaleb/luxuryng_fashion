@@ -236,7 +236,7 @@ function LandingPage() {
                             <h6 class="my-3 text-black text-center font-semibold"> Subscribe to the newsletter </h6>
                             <div class="row d-flex my-2 pr-2 pr-md-5 div1">
                                 <div class="col-9"> <input type="email" class="form-control bg-white py-3" id="inp1" placeholder="Enter email address" /> </div>
-                                <div class="col-3 px-0"> <button class="button send text-white px-4 py-2"> Send </button> </div>
+                                <div class="col-3 px-0"> <button class="button  text-white px-4 py-2"> Send </button> </div>
                             </div>
                         </div>
                     </div>

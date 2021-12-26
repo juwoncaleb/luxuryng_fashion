@@ -416,7 +416,11 @@ iframe {
 
 @media (max-width: 375px) {
   .navbar-toggler{
-    
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 90px;
+    background-color: red;
   }
 }
 @media (max-width: 320px) {
@@ -996,13 +1000,6 @@ textarea {
     width: 95%;
   }
 }
-@media screen and (max-width: 768px) {
-  .send {
-   position: relative;
-   right: 20px;
-  }
-}
-
 
 @media screen and (max-width: 480px) {
   h1 {
@@ -1037,9 +1034,7 @@ textarea {
   }
 }
 
-
 .btt{
-  margin-bottom: 20px;
   display: inline-block;
   width:50%;
     margin-left:25%;

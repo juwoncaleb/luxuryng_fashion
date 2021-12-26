@@ -169,10 +169,10 @@ increasebutton
    left: 5px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .itemsText{
    position: relative;
-   left: 10px;
+   left: 5px;
   }
 }
 
@@ -413,10 +413,19 @@ iframe {
  
 }
 
-
 @media (max-width: 375px) {
   .navbar-toggler{
-    
+    position: relative;
+    left: 300px;
+    bottom: 80px;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-toggler{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 70px;
   }
 }
 @media (max-width: 320px) {
@@ -613,8 +622,6 @@ footer hr {
 
   .but {
     margin: 0;
-    position: relative;
-    right: 100px;
   
   }
 }
@@ -996,13 +1003,6 @@ textarea {
     width: 95%;
   }
 }
-@media screen and (max-width: 768px) {
-  .send {
-   position: relative;
-   right: 20px;
-  }
-}
-
 
 @media screen and (max-width: 480px) {
   h1 {
@@ -1037,9 +1037,7 @@ textarea {
   }
 }
 
-
 .btt{
-  margin-bottom: 20px;
   display: inline-block;
   width:50%;
     margin-left:25%;

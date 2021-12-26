@@ -39,7 +39,7 @@ setActive('active')
             <div className="relative flex flex-col w-full m-0 md:m-5 bg-white z-30 p-10">
 
                 <img src={image} height={375} width={375}  objectFit="contain"   className="cursor-pointer images" />
-                <p className=" itemsText  t font-semibold text-center display textt	">{name}</p>
+                <p className=" itemsText  t font-semibold text-center display ml-0 md	">{name}</p>
                 <p className="itemsText t font-semibold text-center display	"> N{price}</p>
 
 

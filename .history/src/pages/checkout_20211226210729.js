@@ -44,7 +44,7 @@ function Checkout() {
 
                 <button role="link"
                     onClick={() => router.push('/Payment')}
-                    className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                    className={`button btt mt-2 mb  font-semibold pl-5 pr-5 `}>
                     PROCEED TO PAYMENT
                 </button>
 

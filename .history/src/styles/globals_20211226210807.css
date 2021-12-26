@@ -996,13 +996,6 @@ textarea {
     width: 95%;
   }
 }
-@media screen and (max-width: 768px) {
-  .send {
-   position: relative;
-   right: 20px;
-  }
-}
-
 
 @media screen and (max-width: 480px) {
   h1 {
@@ -1036,7 +1029,6 @@ textarea {
     font-size: 0.875em;
   }
 }
-
 
 .btt{
   margin-bottom: 20px;
