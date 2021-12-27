@@ -67,18 +67,14 @@ body{
    
   }
 }
-
+.cart{
+  position: relative !important;
+  left: 15px;
+}
 @media only screen and (max-width: 375px) {
   .cart {
     position: relative;
     right: 13px;
-
-  }
-}
-@media only screen and (max-width: 768px) and(min-width :1024px) {
-  .cart {
-    position: relative;
-    left: 373px;
 
   }
 }
@@ -437,13 +433,12 @@ iframe {
 
 
 .main{
-  position: relative;
-  top: 10px;
   margin: auto;
   padding: auto;
   display: flex;
 	justify-content: center;
 	align-items: center;
+	
 	width: 100%;
 	max-width: 300px;
 	display: inline-flex;
@@ -451,9 +446,6 @@ iframe {
 	position: relative;
 	margin: 0 20px;
 }
-
-
-
 
 .input{
 	width: 100%;
@@ -1015,26 +1007,9 @@ textarea {
 }
 .icoon{
   position: relative;
-  right: 27px;
+  right: 20px;
 }
-@media screen and (max-width :320px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
-@media screen and (max-width :375px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
-@media screen and (max-width :425px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
+
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 26px;

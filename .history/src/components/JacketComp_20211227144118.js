@@ -10,7 +10,7 @@ function JacketComp() {
     return (
         <div>
 
-            <div class=" main	">
+            <div class="main 	">
                 <input type="text" name="input" class="input" placeholder="Search Something....." onChange={(event) => {
                     setSearchTerm(event.target.value);
                 }} />

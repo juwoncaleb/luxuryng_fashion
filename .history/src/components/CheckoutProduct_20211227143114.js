@@ -108,7 +108,7 @@ function CheckoutProduct({ id, image, name, price, size }) {
                     <br />
                     <br />
 
-                    <button className="button relative left-32 t font-semibold 	remove md:left-32" id="" onClick={() => removeItemFromBasket(id)}>Remove from cart</button>
+                    <button className="button relative left-32 t font-semibold 	re md:left-32" id="" onClick={() => removeItemFromBasket(id)}>Remove from cart</button>
                 </div>
 
 

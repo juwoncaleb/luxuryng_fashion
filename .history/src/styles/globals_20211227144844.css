@@ -75,13 +75,6 @@ body{
 
   }
 }
-@media only screen and (max-width: 768px) and(min-width :1024px) {
-  .cart {
-    position: relative;
-    left: 373px;
-
-  }
-}
 @media only screen and (max-width: 320px) {
   .cart {
     position: relative;
@@ -451,9 +444,43 @@ iframe {
 	position: relative;
 	margin: 0 20px;
 }
+@media (max-width: 320px) {
+  .main{
+    position: relative;
+    
+  }
+}
 
-
-
+@media (max-width: 375px) {
+  .main{
+    position: relative;
+    left: 22px;
+  }
+}
+@media (max-width: 425px) {
+  .main{
+    position: relative;
+    left: 37px;
+  }
+}
+@media (max-width: 768px) {
+  .main{
+    position: relative;
+    left: 177px;
+  }
+}
+@media (max-width: 1024px) {
+  .main{
+    position: relative;
+    left: 337px;
+  }
+}
+@media (max-width: 1440px) {
+  .main{
+    position: relative;
+    left: 537px;
+  }
+}
 
 .input{
 	width: 100%;
@@ -1017,24 +1044,7 @@ textarea {
   position: relative;
   right: 27px;
 }
-@media screen and (max-width :320px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
-@media screen and (max-width :375px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
-@media screen and (max-width :425px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
+
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 26px;

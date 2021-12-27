@@ -75,13 +75,6 @@ body{
 
   }
 }
-@media only screen and (max-width: 768px) and(min-width :1024px) {
-  .cart {
-    position: relative;
-    left: 373px;
-
-  }
-}
 @media only screen and (max-width: 320px) {
   .cart {
     position: relative;
@@ -1023,18 +1016,7 @@ textarea {
     left:15px
   }
 }
-@media screen and (max-width :375px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
-@media screen and (max-width :425px){
-  .icoon{
-    position: relative;
-    left:15px
-  }
-}
+
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 26px;

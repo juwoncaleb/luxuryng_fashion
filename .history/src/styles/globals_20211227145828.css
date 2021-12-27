@@ -75,13 +75,7 @@ body{
 
   }
 }
-@media only screen and (max-width: 768px) and(min-width :1024px) {
-  .cart {
-    position: relative;
-    left: 373px;
 
-  }
-}
 @media only screen and (max-width: 320px) {
   .cart {
     position: relative;
@@ -1011,6 +1005,13 @@ textarea {
   .send {
    position: relative;
    right: 21px;
+  }
+}
+
+@media screen and (max-width :320px){
+  .icoontext{
+    position: relative !important;
+    left:500px
   }
 }
 .icoon{
