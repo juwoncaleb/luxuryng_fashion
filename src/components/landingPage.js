@@ -201,7 +201,7 @@ function LandingPage() {
                 </div>
 
 
-                <div className="bg-white h-96	md:h-72 customer  ">
+                <div className="bg-yellow-100 h-96	md:h-72 customer  ">
 
 
                     <div className="terms">
