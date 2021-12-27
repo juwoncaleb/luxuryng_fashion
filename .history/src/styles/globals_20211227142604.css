@@ -1002,10 +1002,7 @@ textarea {
    right: 21px;
   }
 }
-.icoon{
-  position: relative;
-  right: 20px;
-}
+.icon
 
 @media screen and (max-width: 480px) {
   h1 {

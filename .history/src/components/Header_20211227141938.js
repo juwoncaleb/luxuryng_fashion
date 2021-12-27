@@ -7,7 +7,7 @@ import { Navbar, Container, Nav, NavDropdown, Form, FormControl, Button } from '
 import { signIn, signOut, useSession } from "next-auth/client"
 import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
-import { Icon } from '@iconify/react';
+import { MenuIcon, SearchIcon, ShoppingCartIcon } from "@heroicons/react/outline";
 import { selectItems } from "../slices/basketSlice";
 
 
@@ -43,8 +43,7 @@ function Header() {
                         <br />
                         <br />
 
-                        <Icon icon="heroicons-solid:shopping-cart" className="icoon" color="white"  height="40"/>
-                    </div>
+                        <i class="far fa-shopping-cart"></i>                    </div>
                 </Nav.Link>
 
                 

@@ -43,7 +43,7 @@ function Header() {
                         <br />
                         <br />
 
-                        <Icon icon="heroicons-solid:shopping-cart" className="icoon" color="white"  height="40"/>
+                        <Icon icon="heroicons-solid:shopping-cart" color="white"  height="100"/>
                     </div>
                 </Nav.Link>
 
