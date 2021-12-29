@@ -39,7 +39,6 @@ function LandingPage() {
 
 
                             <div className="w-full h-full flex flex-col absolute top-6 right-10  justify-center items-center">
-                                <h1 className="text-white font-bold text right-10 landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
                                 <h1 className="text-white font-bold text landingpagetext">STYLE</h1>
                             </div>
