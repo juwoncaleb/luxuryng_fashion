@@ -49,7 +49,7 @@ function LandingPage() {
                             <img className="h-screen bg-cover bg-center object-cover	" loading="lazy" src="/img/landingpage/6.jpg" />
 
                             <div className="w-full h-full flex flex-col absolute top-6 right-10 justify-center items-center">
-
+                               
                                 <h1 className="text-black font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
                                 <h1 className="text-black font-bold text landingpagetext ">STYLE</h1>
@@ -89,7 +89,7 @@ function LandingPage() {
                 </div>
 
             </div>
-            <div className="bg-white mt-16  page ">
+            <div className="bg-white l  page ">
                 {/*TEXTS*/}
 
 

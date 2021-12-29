@@ -89,7 +89,7 @@ function LandingPage() {
                 </div>
 
             </div>
-            <div className="bg-white mt-16  page ">
+            <div className="bg-white mt-1  page ">
                 {/*TEXTS*/}
 
 
