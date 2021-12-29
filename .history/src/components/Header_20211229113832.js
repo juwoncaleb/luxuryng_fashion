@@ -29,7 +29,7 @@ function Header() {
                     <Image
                         onClick={() => router.push('/')}
                         src="/img/logo.png"
-                        width={150}
+                        width={120}
                         height={90}
                     />
 

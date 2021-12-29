@@ -5,12 +5,9 @@ import { selectItems, selectTotal } from "../slices/basketSlice";
 import Currency from "react-currency-formatter";
 import { useRouter } from "next/router";
 
-
 import { signIn, signOut, useSession } from "next-auth/client"
 
 function Checkout() {
-    const publicKey = process.env.REACT_APP_PAYSTACK_PUBLIC_KEY
-
     const router = useRouter();
 
     const items = useSelector(selectItems);
@@ -43,6 +40,8 @@ function Checkout() {
                 <br />
 
 
+
+
                 <button role="link"
                     onClick={() => router.push('/Payment')}
                     className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
@@ -50,12 +49,7 @@ function Checkout() {
                 </button>
 
 
-                {/* <button role="link"
-                    onClick={() => router.push('/Payment')}
-                    className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                    PROCEED TO PAYMENT
-                </button> */}
-
+               
             </main >
         </div >
     )

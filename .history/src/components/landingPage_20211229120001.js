@@ -147,7 +147,7 @@ function LandingPage() {
                 <br />
                 <br />
 
-                <p className="text-center text-black text-3xl font-bold	t  md:text-5xl lg:text-5xl 	">Brand </p>
+                <p className="text-center text-black text-3xl	t  md:text-5xl lg:text-5xl 	">Brand </p>
 
 
 
@@ -198,20 +198,20 @@ function LandingPage() {
 
 
                     <div className="terms">
-                        <img width="50px" src="/img/customer-service.png" className="bg-white" />
-                        <p className=" text-white	 text-lg font-semibold pt-6">Customer  <br /> service</p>
+                        <img width="50px" src="/img/customer-service.png" />
+                        <p className=" text-white	 text-lg font-semibold pt-6">24/7 Customer  <br /> service</p>
                     </div>
 
                     <div className="terms">
-                        <img width="50px" src="/img/delivery.png" className="bg-white" />
+                        <img width="50px" src="/img/delivery.png" />
                         <p className=" text-white	  text-lg font-semibold pt-6"> Fast  <br /> Delivery</p>
 
 
                     </div>
 
                     <div className="terms">
-                        <img width="50px" src="/img/payment-method.png" className="bg-white" />
-                        <p className=" text-white	 text-lg font-semibold pt-6">Secure Online <br /> Payment</p>
+                        <img width="50px" src="/img/payment-method.png" />
+                        <p className=" text-whute	 text-lg font-semibold pt-6">Secure Online <br /> Payment</p>
 
                     </div>
 

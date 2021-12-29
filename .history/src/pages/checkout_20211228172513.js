@@ -55,6 +55,7 @@ function Checkout() {
                     className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
                     PROCEED TO PAYMENT
                 </button> */}
+                <PaystackButton>jdf</PaystackButton>
 
             </main >
         </div >

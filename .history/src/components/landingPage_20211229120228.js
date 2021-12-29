@@ -147,7 +147,7 @@ function LandingPage() {
                 <br />
                 <br />
 
-                <p className="text-center text-black text-3xl font-bold	t  md:text-5xl lg:text-5xl 	">Brand </p>
+                <p className="text-center text-black text-3xl font	t  md:text-5xl lg:text-5xl 	">Brand </p>
 
 
 

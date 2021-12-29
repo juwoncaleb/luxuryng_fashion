@@ -39,7 +39,7 @@ function LandingPage() {
 
 
                             <div className="w-full h-full flex flex-col absolute top-6 right-10  justify-center items-center">
-                                <h1 className="text-white font-bold text right-10 landingpagetext">EXPLORE YOUR TRUE</h1>
+                                <h1 className="text-white font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
                                 <h1 className="text-white font-bold text landingpagetext">STYLE</h1>
                             </div>
@@ -93,15 +93,12 @@ function LandingPage() {
 
 
                 <div className=" ">
-                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl ">Welcome to luxury Wears</p>
+                    <p className="text-center text-black text-3xl	 font-bold md:text-5xl lg:text-5xl ">Welcome to luxury Wears</p>
 
-                    <p className="text-center text-black text-3xl t	 font-bold md:text-5xl lg:text-5xl 	">Your one stop shop for High-end streetwear</p>
-                    <p className="text-center text-black text-3xl t	 font-bold md:text-5xl lg:text-5xl 	">Open Mon - Saturday (10am-6pm)</p>
-                    <br />
-                    <br />
-                    <br />
-
-                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">Top selling this week</p>
+                    <p className="text-center text-black text-3xl	 font-bold md:text-5xl lg:text-5xl 	">Your one stop shop for High-end streetwear</p>
+                    <p className="text-center text-black text-3xl	 font-bold md:text-5xl lg:text-5xl 	">Open Mon - Saturday (10am-6pm)</p>
+                    
+                    <p className="text-center text-black text-3xl	 font-bold md:text-5xl lg:text-5xl 	">Open Mon - Saturday (10am-6pm)</p>
 
 
 
@@ -111,15 +108,12 @@ function LandingPage() {
 
                 {/* CLOTHES */}
                 <div className="clothes content-center ml-10 pl-2	 ">
-
-                    <Image
+                   <Image className="boxy "
                         width={400}
                         height={300}
                         src="/img/travis/rot1.png"
-
                     />
-
-
+                  
                     <Image className="boxy "
                         width={460}
                         height={360}
@@ -143,11 +137,6 @@ function LandingPage() {
 
                 </div>
 
-                <br />
-                <br />
-                <br />
-
-                <p className="text-center text-black text-3xl font-bold	t  md:text-5xl lg:text-5xl 	">Brand </p>
 
 
 
@@ -159,59 +148,78 @@ function LandingPage() {
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center text-navbar t text-base font-semibold">NIKE</span>
+                            /><span className="text-center text-navbar text-base font-semibold">NIKE</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/model.png"
 
-                            /><span className="text-center text-navbar t text-base font-semibold">FEAR OF GOD</span>
+                            /><span className="text-center text-navbar text-base font-semibold">FEAR OF GOD</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center text-navbar t text-base font-semibold">GUCCI</span>
+                            /><span className="text-center text-navbar text-base font-semibold">GUCCI</span>
                         </div>
                         <div class="box">
                             <img
 
                                 src="/img/travis/rooo.png"
 
-                            /><span className="text-center text-navbar t text-base font-semibold">ADER</span>
+                            /><span className="text-center text-navbar text-base font-semibold">ADER</span>
                         </div>
                     </div>
 
                 </div>
 
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-
-
-                <div className="bg-black h-96	md:h-72 mt-10 customer  ">
-
-
-                    <div className="terms">
-                        <img width="50px" src="/img/customer-service.png" className="bg-white" />
-                        <p className=" text-white	 text-lg font-semibold pt-6">Customer  <br /> service</p>
+                <div className="flex ">
+                    <div className="adidasGif ">
+                        <iframe src="https://giphy.com/embed/IAmwvEs4uVf8Y" width="100%" height="100%" frameBorder="0" >
+                        </iframe>
                     </div>
+                    <div className="adidasGif ">
+                        <iframe src="https://giphy.com/embed/26FlruUbK9XSEQDoQ" width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>
 
-                    <div className="terms">
-                        <img width="50px" src="/img/delivery.png" className="bg-white" />
-                        <p className=" text-white	  text-lg font-semibold pt-6"> Fast  <br /> Delivery</p>
-
+                    </div>
+                    <div className="adidasGif ">
+                        <iframe src="https://giphy.com/embed/BpRh0HV5w2zMSBFYVv" width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>
 
                     </div>
 
+
+                </div>
+
+                <div className="giftext">
+                    <p className=" bottom-9 adidas text-lg md:text-5xl pt-12 mt-32 " data-heading="Slide">ADIDAS</p>
+
+                    <p className=" nikeboy text-lg md:text-5xl pt-12 mt-32 " data-heading="Slide">NIKE</p>
+                    <p className=" newbalance  text-lg md:text-5xl pt-12 mt-32">NEW BALANCE</p>
+
+
+                </div>
+
+
+                <div className="bg-yellow-100 h-96	md:h-72 customer  ">
+
+
                     <div className="terms">
-                        <img width="50px" src="/img/payment-method.png" className="bg-white" />
-                        <p className=" text-white	 text-lg font-semibold pt-6">Secure Online <br /> Payment</p>
+                        <img width="50px" src="/img/customer-service.png" />
+                        <p className=" text-black	 text-lg font-semibold pt-6">24/7 Customer  <br /> service</p>
+                    </div>
+
+                    <div className="terms">
+                        <img width="50px" src="/img/delivery.png" />
+                        <p className=" text-black	  text-lg font-semibold pt-6"> Fast  <br /> Delivery</p>
+
+
+                    </div>
+
+                    <div className="terms">
+                        <img width="50px" src="/img/payment-method.png" />
+                        <p className=" text-black	 text-lg font-semibold pt-6">Secure Online <br /> Payment</p>
 
                     </div>
 
@@ -249,7 +257,7 @@ function LandingPage() {
                             <a href="https://twitter.com/Sanket46171296"
                             ><i class="fab fa-twitter"></i>  <br />
 
-                            </a
+                           </a
                             >
                         </p>
 
@@ -257,7 +265,7 @@ function LandingPage() {
                         <p>
                             <a href="https://www.instagram.com/imsanketbodke/?hl=en"
                             ><i class="fab fa-instagram"> </i> <br />
-
+                               
                             </a
                             >
                         </p>

@@ -4,6 +4,7 @@ import CheckoutProduct from "../components/CheckoutProduct";
 import { selectItems, selectTotal } from "../slices/basketSlice";
 import Currency from "react-currency-formatter";
 import { useRouter } from "next/router";
+import { PaystackButton } from 'react-paystack'
 
 
 import { signIn, signOut, useSession } from "next-auth/client"
@@ -55,6 +56,7 @@ function Checkout() {
                     className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
                     PROCEED TO PAYMENT
                 </button> */}
+                <PaystackButton>jdf</PaystackButton>
 
             </main >
         </div >

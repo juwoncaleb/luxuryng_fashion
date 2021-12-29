@@ -39,7 +39,7 @@ function LandingPage() {
 
 
                             <div className="w-full h-full flex flex-col absolute top-6 right-10  justify-center items-center">
-                                <h1 className="text-white font-bold text right-10 landingpagetext">EXPLORE YOUR TRUE</h1>
+                                <h1 className="text-white font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
                                 <h1 className="text-white font-bold text landingpagetext">STYLE</h1>
                             </div>
@@ -147,7 +147,7 @@ function LandingPage() {
                 <br />
                 <br />
 
-                <p className="text-center text-black text-3xl font-bold	t  md:text-5xl lg:text-5xl 	">Brand </p>
+                <p className="text-center text-black text-3xl	t  md:text-5xl lg:text-5xl 	">Brand </p>
 
 
 
@@ -159,7 +159,7 @@ function LandingPage() {
 
                                 src="/img/model2.jpg"
 
-                            /><span className="text-center text-navbar t text-base font-semibold">NIKE</span>
+                            /><span className="text-center text-navbar text-base font-semibold">NIKE</span>
                         </div>
                         <div class="box">
                             <img
@@ -186,32 +186,28 @@ function LandingPage() {
 
                 </div>
 
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+              
 
 
-                <div className="bg-black h-96	md:h-72 mt-10 customer  ">
+
+                <div className="bg-yellow-100 h-96	md:h-72 mt-10 customer  ">
 
 
                     <div className="terms">
-                        <img width="50px" src="/img/customer-service.png" className="bg-white" />
-                        <p className=" text-white	 text-lg font-semibold pt-6">Customer  <br /> service</p>
+                        <img width="50px" src="/img/customer-service.png" />
+                        <p className=" text-black	 text-lg font-semibold pt-6">24/7 Customer  <br /> service</p>
                     </div>
 
                     <div className="terms">
-                        <img width="50px" src="/img/delivery.png" className="bg-white" />
-                        <p className=" text-white	  text-lg font-semibold pt-6"> Fast  <br /> Delivery</p>
+                        <img width="50px" src="/img/delivery.png" />
+                        <p className=" text-black	  text-lg font-semibold pt-6"> Fast  <br /> Delivery</p>
 
 
                     </div>
 
                     <div className="terms">
-                        <img width="50px" src="/img/payment-method.png" className="bg-white" />
-                        <p className=" text-white	 text-lg font-semibold pt-6">Secure Online <br /> Payment</p>
+                        <img width="50px" src="/img/payment-method.png" />
+                        <p className=" text-black	 text-lg font-semibold pt-6">Secure Online <br /> Payment</p>
 
                     </div>
 

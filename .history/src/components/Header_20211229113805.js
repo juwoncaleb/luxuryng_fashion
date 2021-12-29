@@ -30,7 +30,7 @@ function Header() {
                         onClick={() => router.push('/')}
                         src="/img/logo.png"
                         width={150}
-                        height={90}
+                        height={100}
                     />
 
                 </Navbar.Brand>

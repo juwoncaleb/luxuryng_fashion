@@ -156,9 +156,10 @@ increasebutton
 
 }
 @media only screen and (max-width: 375px) {
-  .landingpagetext {
+  .increasebutton {
 position: relative;
-left: 45px;   
+right: 50px;
+color: red;   
   }
 }
 .t{
@@ -396,7 +397,6 @@ iframe {
 .terms{
   position: relative;
   top: 80px;
-  left: 15px;
 }
 .giftext {
   display: flex;
