@@ -278,9 +278,9 @@ function LandingPage() {
                             LAGOS ISLAND
                         </p>
                         <h4 class="mobile">Mobile</h4>
-                        <p><a href="#">+9112233445</a></p>
+                        <p><a href="http://wa.me/+2348162353857">+9112233445</a></p>
                         <h4 class="mail">Email</h4>
-                        <p><a href="#">abcdef@gmail.com</a></p>
+                        <p><a href="Calebomojuwon@gmail.com">abcdef@gmail.com</a></p>
                     </div>
                 </div>
                 <footer>
