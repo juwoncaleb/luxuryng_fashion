@@ -38,7 +38,7 @@ function LandingPage() {
 
 
 
-                            <div className="w-full h-full flex flex-col absolute top-6   justify-center items-center">
+                            <div className="w-full h-full flex flex-col absolute top-6 right-10  justify-center items-center">
                                 <h1 className="text-white font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
                                 <h1 className="text-white font-bold text landingpagetext">STYLE</h1>
@@ -48,7 +48,7 @@ function LandingPage() {
                         <div className="">
                             <img className="h-screen bg-cover bg-center object-cover	" loading="lazy" src="/img/landingpage/6.jpg" />
 
-                            <div className="w-full h-full flex flex-col absolute top-6  justify-center items-center">
+                            <div className="w-full h-full flex flex-col absolute top-6 r justify-center items-center">
 
                                 <h1 className="text-black font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
@@ -58,7 +58,7 @@ function LandingPage() {
 
                         <div className="">
                             <img className="h-screen bg-cover bg-center object-cover" loading="lazy" src="/img/landingpage/5.jpg" />
-                            <div className="w-full h-full flex flex-col absolute top-6   justify-center items-center">
+                            <div className="w-full h-full flex flex-col absolute top-6 right-10  justify-center items-center">
                                 <h1 className="text-white font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
                                 <h1 className="text-white font-bold text landingpagetext">STYLE</h1>
@@ -67,7 +67,7 @@ function LandingPage() {
 
                         <div className="">
                             <img className="h-screen bg-cover bg-center object-cover" loading="lazy" src="/img/landingpage/8.jpg" />
-                            <div className="w-full h-full flex flex-col absolute top-6  justify-center items-center">
+                            <div className="w-full h-full flex flex-col absolute top-6 right-10  justify-center items-center">
                                 <h1 className="text-white font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
                                 <h1 className="text-white font-bold text landingpagetext">STYLE</h1>
@@ -76,7 +76,7 @@ function LandingPage() {
 
                         <div className="">
                             <img className="h-screen bg-cover bg-center object-cover" loading="lazy" src="/img/landingpage/9.jpg" />
-                            <div className="w-full h-full flex flex-col absolute top-6   justify-center items-center">
+                            <div className="w-full h-full flex flex-col absolute top-6 right-10  justify-center items-center">
 
                                 <h1 className="text-white font-bold text landingpagetext">EXPLORE YOUR TRUE</h1>
                                 <br />
