@@ -2,9 +2,7 @@ function Payment() {
     return (
         <div>
             <div id="container">
-                <br/>
-                <br/>
-
+                <br.></br.>
                 <h1>&bull;VALIDATE ORDER &bull;</h1>
                 
                 <div class="icon_wrapper">
