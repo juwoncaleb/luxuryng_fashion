@@ -25,7 +25,7 @@ function Payment() {
 
   const componentProps = {
     ...config,
-    text: 'Secure Online Payment ',
+    text: 'Paystack Button Implementation',
     onSuccess: (reference) => handlePaystackSuccessAction(reference),
     onClose: handlePaystackCloseAction,
   };

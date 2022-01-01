@@ -394,7 +394,7 @@ iframe {
   border: black 4px solid;
   padding: 10px;
   position: fixed;
-    top: 20%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -1029,18 +1029,12 @@ textarea {
   #containerr {
     margin: 20px auto;
     width: 95%;
-    border: black 5px solid;
-    height: 300px;
   }
 }
 @media screen and (max-width: 768px) {
   #container {
     margin: 20px auto;
     width: 95%;
-    border: black 5px solid;
-    height: 300px;
-
-
   }
 }
 @media screen and (max-width: 768px) {
