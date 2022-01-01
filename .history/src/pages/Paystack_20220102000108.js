@@ -1,5 +1,5 @@
 import React from 'react'
-import Payment from '../pages/PaystackButton'
+import Payment from '../pages/'
 
 function Paystack() {
     return (
