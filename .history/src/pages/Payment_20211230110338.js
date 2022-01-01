@@ -45,8 +45,6 @@ function Payment() {
                             <option>I'd like to make a proposal</option>
                         </select>
                     </div>
-                    <input type="hidden" name="_next" value="http://localhost:3000/Paystack"/>
-                    
                     <div class="message">
                         <label for="message"></label>
                         <textarea name="message" placeholder="Optional message" id="message_input" cols="30" rows="5" required></textarea>

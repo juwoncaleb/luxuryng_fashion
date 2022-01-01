@@ -31,6 +31,7 @@
     "next-auth": "^3.29.0",
     "next-transpile-modules": "^9.0.0",
     "nodemailer": "^6.7.2",
+    "paystack-simple": "^0.0.5",
     "react": "17.0.1",
     "react-bootstrap": "^2.0.4",
     "react-currency-formatter": "^1.1.0",

@@ -45,7 +45,7 @@ function Payment() {
                             <option>I'd like to make a proposal</option>
                         </select>
                     </div>
-                    <input type="hidden" name="_next" value="http://localhost:3000/Paystack"/>
+                    <input type="hidden"  value="http://localhost:3000//Paystack"/>
                     
                     <div class="message">
                         <label for="message"></label>

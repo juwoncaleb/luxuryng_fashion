@@ -30,12 +30,10 @@ function Payment() {
                         <label for="name"></label>
                         <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required />
                     </div>
-                   
                     <div class="telephone">
                         <label for="name"></label>
                         <input type="text" placeholder="My address" name="telephone" id="telephone_input" required />
                     </div>
-                   
                     <div class="subject">
                         <label for="subject"></label>
                         <select placeholder="Subject line" name="subject" id="subject_input" required>
@@ -45,8 +43,6 @@ function Payment() {
                             <option>I'd like to make a proposal</option>
                         </select>
                     </div>
-                    <input type="hidden" name="_next" value="http://localhost:3000/Paystack"/>
-                    
                     <div class="message">
                         <label for="message"></label>
                         <textarea name="message" placeholder="Optional message" id="message_input" cols="30" rows="5" required></textarea>
