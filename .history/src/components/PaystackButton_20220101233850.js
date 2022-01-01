@@ -34,15 +34,14 @@ function Payment() {
     <div className="App">
 
       <div id="containerr">
-        <br/>
         <h1>&bull;PAY WITH FLUTTERWAVE &bull;</h1>
         
 
-        <br/>
+
 
         <div id="contact_form">
 
-         
+          
           
           <PaystackButton  className='flutter' {...componentProps} />
 

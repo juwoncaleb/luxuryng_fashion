@@ -394,7 +394,7 @@ iframe {
   border: black 4px solid;
   padding: 10px;
   position: fixed;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
