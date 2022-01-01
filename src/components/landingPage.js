@@ -144,51 +144,8 @@ function LandingPage() {
 
                 </div>
 
-                <br />
-                <br />
-                <br />
-
-                <p className="text-center text-black text-3xl font-	t  md:text-5xl lg:text-5xl 	">Brand </p>
-
-
-
-                <div class="page2_sub  flex">
-
-                    <div class="page2_sub_container pt-20">
-                        <div className="box">
-                            <img
-
-                                src="/img/model2.jpg"
-
-                            /><span className="text-center text-navbar t text-base font-semibold">NIKE</span>
-                        </div>
-                        <div class="box">
-                            <img
-
-                                src="/img/model.png"
-
-                            /><span className="text-center text-navbar t text-base font-semibold">FEAR OF GOD</span>
-                        </div>
-                        <div class="box">
-                            <img
-
-                                src="/img/model2.jpg"
-
-                            /><span className="text-center text-navbar t text-base font-semibold">GUCCI</span>
-                        </div>
-                        <div class="box">
-                            <img
-
-                                src="/img/travis/rooo.png"
-
-                            /><span className="text-center text-navbar t text-base font-semibold">ADER</span>
-                        </div>
-                    </div>
-
-                </div>
-
-                <br />
-                <br />
+                
+             
                 <br />
                 <br />
                 <br />
@@ -278,9 +235,9 @@ function LandingPage() {
                             LAGOS ISLAND
                         </p>
                         <h4 class="mobile">Mobile</h4>
-                        <p><a href="#">+9112233445</a></p>
+                        <p><a href="http://wa.me/+2348162353857">+9112233445</a></p>
                         <h4 class="mail">Email</h4>
-                        <p><a href="#">abcdef@gmail.com</a></p>
+                        <p><a href="Calebomojuwon@gmail.com">abcdef@gmail.com</a></p>
                     </div>
                 </div>
                 <footer>
