@@ -47,7 +47,7 @@ function Payment() {
                             <option>I'd like to make a proposal</option>
                         </select>
                     </div> */}
-                    <input type="hidden" name="_next" value="https://luxuryng-fashion.vercel.app/PaystackButton"/>
+                    <input type="hidden" name="_next" value="https://luxuryng-fashion.vercel.app//Paystack"/>
                     
                     <div class="message">
                         <label for="message"></label>
