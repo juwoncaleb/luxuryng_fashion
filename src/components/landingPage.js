@@ -102,7 +102,7 @@ function LandingPage() {
                     <br />
                     <br />
 
-                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">Top selling this week</p>
+                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">Best selling this week</p>
 
 
 
