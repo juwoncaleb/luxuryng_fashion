@@ -1053,26 +1053,6 @@ textarea {
 
   }
 }
-@media screen and (min-width: 768px) {
-  .navbar-toggler  {
-   position: relative;
-   left: 180px;
-  }
-}
-@media screen and (min-width: 742px) {
-  .navbar-toggler  {
-   position: relative;
-   left: 90px;
-  }
-}
-726
-
-@media screen and (max-width: 425px) {
-  .navbar-toggler  {
-   position: relative;
-   right: 580px;
-  }
-}
 @media screen and (max-width: 768px) {
   .send {
    position: relative;

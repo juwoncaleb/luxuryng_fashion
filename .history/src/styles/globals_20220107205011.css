@@ -1053,34 +1053,20 @@ textarea {
 
   }
 }
-@media screen and (min-width: 768px) {
-  .navbar-toggler  {
-   position: relative;
-   left: 180px;
-  }
-}
-@media screen and (min-width: 742px) {
-  .navbar-toggler  {
-   position: relative;
-   left: 90px;
-  }
-}
-726
-
-@media screen and (max-width: 425px) {
-  .navbar-toggler  {
-   position: relative;
-   right: 580px;
-  }
-}
 @media screen and (max-width: 768px) {
   .send {
    position: relative;
    right: 21px;
   }
 }
-
-
+.icoon{
+  position: relative;
+  right: 27px;
+}
+@media screen and (max-width :320px){
+  .icoon{
+    position: relative;
+    
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 26px;
@@ -1094,10 +1080,7 @@ textarea {
     padding: 15px 25px;
   }
 }
-.icoontext{
-  position: relative;
-  left: 10px;
-}
+
 @media screen and (max-width: 420px) {
   h1 {
     font-size: 18px;

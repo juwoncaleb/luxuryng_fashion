@@ -1062,10 +1062,9 @@ textarea {
 @media screen and (min-width: 742px) {
   .navbar-toggler  {
    position: relative;
-   left: 90px;
+   left: 180px;
   }
 }
-726
 
 @media screen and (max-width: 425px) {
   .navbar-toggler  {
