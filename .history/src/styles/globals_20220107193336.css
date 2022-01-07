@@ -471,20 +471,6 @@ iframe {
     left: 20px;
   }
 }
-@media (max-width: 425px) {
-  .navbar-toggler{
-    position: relative;
-    left: 40px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar-toggler{
-    position: relative;
-    left: 140px;
-  }
-}
-
-
 @media (max-width: 320px) {
   .navbar-toggler{
     position: relative;

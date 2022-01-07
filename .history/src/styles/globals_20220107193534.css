@@ -477,10 +477,10 @@ iframe {
     left: 40px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .navbar-toggler{
     position: relative;
-    left: 140px;
+    left: 40px;
   }
 }
 

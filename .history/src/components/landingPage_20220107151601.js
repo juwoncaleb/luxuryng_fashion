@@ -107,19 +107,19 @@ function LandingPage() {
                     
                     <Image
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/travis/cac.png"
 
                         />
                     <Image
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/balenciaga/swis.png"
 
                         />
                         <Image
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/travis/rot1.png"
 
                         />
@@ -127,14 +127,14 @@ function LandingPage() {
 
                         <Image className="boxy "
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/fearOfGod/rot2.png"
 
                         />
                         <Image
                             className=" boxy "
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/caps/vondutch/von5.png"
                         />
 
@@ -142,15 +142,15 @@ function LandingPage() {
                         <Image
                             className="boxy  ml-5"
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/travis/rott.png"
                         />
 
                     </div>
                     <button role="link"
-                        onClick={() => router.push('/Cap')}
+                        onClick={() => router.push('/Payment')}
                         className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                       VIEW MORE
+                        CLICK TO SEE MORE
                     </button>
 
                 </div>
@@ -162,7 +162,7 @@ function LandingPage() {
 
                         <Image
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/balenciaga/rp1.png"
 
                         />
@@ -170,47 +170,30 @@ function LandingPage() {
 
                         <Image className="boxy "
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/balenciaga/rp2.png"
 
                         />
                         <Image
                             className=" boxy "
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/balenciaga/rp3.png"
                         />
-<Image
-                            width={350}
-                            height={280}
-                            src="/img/travis/cac.png"
 
-                        />
-                    <Image
-                            width={350}
-                            height={280}
-                            src="/img/balenciaga/swis.png"
-
-                        />
-                        <Image
-                            width={350}
-                            height={280}
-                            src="/img/travis/rot1.png"
-
-                        />
 
                         <Image
                             className="boxy  ml-5"
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/travis/rp4.png"
                         />
 
                     </div>
                     <button role="link"
-                        onClick={() => router.push('/Shirt')}
+                        onClick={() => router.push('/Payment')}
                         className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        VIEW MORE
+                        CLICK TO SEE MORE
                     </button>
 
                 </div>
@@ -230,7 +213,7 @@ function LandingPage() {
 
                         <Image
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/travis/ry3.png"
 
                         />
@@ -247,7 +230,7 @@ function LandingPage() {
                         <Image
                             className=" boxy "
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/travis/gt.png"
                         />
 
@@ -255,33 +238,15 @@ function LandingPage() {
                         <Image
                             className="boxy  ml-5"
                             width={350}
-                            height={280}
+                            height={300}
                             src="/img/travis/rott.png"
-                        />
-                        <Image
-                            width={350}
-                            height={280}
-                            src="/img/travis/cac.png"
-
-                        />
-                    <Image
-                            width={350}
-                            height={280}
-                            src="/img/balenciaga/swis.png"
-
-                        />
-                        <Image
-                            width={350}
-                            height={280}
-                            src="/img/travis/rot1.png"
-
                         />
 
                     </div>
                     <button role="link"
-                        onClick={() => router.push('/Shirt')}
+                        onClick={() => router.push('/Payment')}
                         className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                     VIEW MORE
+                        CLICK TO SEE MORE
                     </button>
 
                 </div>

@@ -467,24 +467,9 @@ iframe {
 
 @media (max-width: 375px) {
   .navbar-toggler{
-    position: relative;
-    left: 20px;
+    
   }
 }
-@media (max-width: 425px) {
-  .navbar-toggler{
-    position: relative;
-    left: 40px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar-toggler{
-    position: relative;
-    left: 140px;
-  }
-}
-
-
 @media (max-width: 320px) {
   .navbar-toggler{
     position: relative;
@@ -1165,7 +1150,7 @@ textarea {
   position: relative;
   left: 10px;
 }
-.shirtt{
+/* .shirtt{
   margin-right: 50px;
 }
 .trouserrs{
@@ -1183,7 +1168,7 @@ textarea {
 .brad{
   margin-right: 50px;
 
-}
+} */
 
 .card {
   background-color: #222222;

@@ -480,7 +480,7 @@ iframe {
 @media (max-width: 768px) {
   .navbar-toggler{
     position: relative;
-    left: 140px;
+    left: 40px;
   }
 }
 

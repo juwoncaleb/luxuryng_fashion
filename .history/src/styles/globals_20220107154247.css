@@ -68,14 +68,6 @@ body{
   }
 }
 
-@media only screen and (max-width: 320px) {
-  .carticon{
-position: relative;
-left: 180px;
-bottom: 100px;
-  }
-}
-
 @media only screen and (max-width: 375px) {
   .cart {
     position: relative;
@@ -467,35 +459,21 @@ iframe {
 
 @media (max-width: 375px) {
   .navbar-toggler{
-    position: relative;
-    left: 20px;
+    
   }
 }
-@media (max-width: 425px) {
-  .navbar-toggler{
-    position: relative;
-    left: 40px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar-toggler{
-    position: relative;
-    left: 140px;
-  }
-}
-
-
 @media (max-width: 320px) {
   .navbar-toggler{
     position: relative;
-    top: -5px;
-    left: 0px;
+    top: -60px;
+    left: 250px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .navbar-toggler{
     position: relative;
-   right: 100px;
+    top: -60px;
+    left: 250px;
   }
 }
 

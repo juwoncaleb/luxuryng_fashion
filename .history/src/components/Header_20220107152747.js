@@ -84,9 +84,9 @@ function Header() {
                     </Nav>
 
                 </Navbar.Collapse>
-                <Nav.Link className="carticon" href="#action1">
+                <Nav.Link className="ml-10 mt-1" href="#action1">
 
-                    <div onClick={() => router.push('/checkout')} className="cursor-pointer  relative links flex items-center">
+                    <div onClick={() => router.push('/checkout')} className="cursor-pointer cart relative links flex items-center">
                         <span className="absolute icoontext ml-18 top-0 right-0 md:right-10 h-4 w-4    text-white text-2xl font-bold"> {items.length} </span>
                         <br />
                         <br />
@@ -97,7 +97,6 @@ function Header() {
                     </div>
                 </Nav.Link>
             </Container>
-
         </Navbar>
 
 

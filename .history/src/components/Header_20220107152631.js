@@ -34,10 +34,21 @@ function Header() {
                     />
 
                 </Navbar.Brand>
+                <Nav.Link className="ml-10 mt-1" href="#action1">
 
+                    <div onClick={() => router.push('/checkout')} className="cursor-pointer cart relative links flex items-center">
+                        <span className="absolute icoontext ml-18 top-0 right-0 md:right-10 h-4 w-4    text-white text-2xl font-bold"> {items.length} </span>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
 
+                        <Icon icon="heroicons-solid:shopping-cart" className="icoon" color="white"  height="40"/>
+                    </div>
+                </Nav.Link>
 
-
+                
+               
 
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse className="ml-10" id="navbarScroll">
@@ -75,7 +86,7 @@ function Header() {
                         </NavDropdown>
 
                         <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1 capp text-white" href="#action2"><p >CAPS</p></Nav.Link>
-                        <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1 text-white brad" href="#action2"><p >BRAND</p></Nav.Link>
+                        <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1 text-white " href="#action2"><p >BRAND</p></Nav.Link>
 
 
 
@@ -84,20 +95,8 @@ function Header() {
                     </Nav>
 
                 </Navbar.Collapse>
-                <Nav.Link className="carticon" href="#action1">
 
-                    <div onClick={() => router.push('/checkout')} className="cursor-pointer  relative links flex items-center">
-                        <span className="absolute icoontext ml-18 top-0 right-0 md:right-10 h-4 w-4    text-white text-2xl font-bold"> {items.length} </span>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-
-                        <Icon icon="heroicons-solid:shopping-cart" className="icoon" color="white" height="40" />
-                    </div>
-                </Nav.Link>
             </Container>
-
         </Navbar>
 
 
