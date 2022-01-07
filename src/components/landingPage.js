@@ -141,6 +141,7 @@ function LandingPage() {
                     </button>
 
                 </div>
+                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">Best selling this week</p>
 
                 <div className="newArrival">
                     <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">New Arrivals</p>
