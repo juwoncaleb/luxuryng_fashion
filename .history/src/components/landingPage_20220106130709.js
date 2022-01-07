@@ -98,145 +98,168 @@ function LandingPage() {
 
             </div>
             <div className="bg-white mt-16  page ">
+                {/*TEXTS*/}
 
-                <div className="topSelling">
+
+                <div className=" ">
+
 
                     <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">Top selling this week</p>
-                    <div className="clothes content-center  pl-2	 ">
-
-                        <Image
-                            width={400}
-                            height={300}
-                            src="/img/travis/rot1.png"
-
-                        />
 
 
-                        <Image className="boxy "
-                            width={460}
-                            height={360}
-                            src="/img/fearOfGod/rot2.png"
-
-                        />
-                        <Image
-                            className=" boxy "
-                            width={400}
-                            height={400}
-                            src="/img/caps/vondutch/von5.png"
-                        />
-
-
-                        <Image
-                            className="boxy  ml-5"
-                            width={370}
-                            height={360}
-                            src="/img/travis/rott.png"
-                        />
-
-                    </div>
-                    <button role="link"
-                        onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
-                    </button>
 
                 </div>
-
-                <div className="newArrival">
-                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">New Arrivals</p>
-
-                    <div className="clothes content-center  pl-2	 ">
-
-                        <Image
-                            width={400}
-                            height={300}
-                            src="/img/travis/rot1.png"
-
-                        />
-
-
-                        <Image className="boxy "
-                            width={460}
-                            height={360}
-                            src="/img/fearOfGod/rot2.png"
-
-                        />
-                        <Image
-                            className=" boxy "
-                            width={400}
-                            height={400}
-                            src="/img/caps/vondutch/von5.png"
-                        />
-
-
-                        <Image
-                            className="boxy  ml-5"
-                            width={370}
-                            height={360}
-                            src="/img/travis/rott.png"
-                        />
-
-                    </div>
-                    <button role="link"
-                        onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
-                    </button>
-
-                </div>
-
-
+               
 
 
                 {/* CLOTHES */}
+                <div className="clothes content-center  pl-2	 ">
+
+                    <Image
+                        width={400}
+                        height={300}
+                        src="/img/travis/rot1.png"
+
+                    />
 
 
+                    <Image className="boxy "
+                        width={460}
+                        height={360}
+                        src="/img/fearOfGod/rot2.png"
 
-                <div className="tabs">
-                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">********(i don know what to fill in here)</p>
-
-
-                    <div className="clothes content-center  pl-2	 ">
-
-                        <Image
-                            width={400}
-                            height={300}
-                            src="/img/travis/rot1.png"
-
-                        />
-
-
-                        <Image className="boxy "
-                            width={460}
-                            height={360}
-                            src="/img/fearOfGod/rot2.png"
-
-                        />
-                        <Image
-                            className=" boxy "
-                            width={400}
-                            height={400}
-                            src="/img/caps/vondutch/von5.png"
-                        />
+                    />
+                    <Image
+                        className=" boxy "
+                        width={400}
+                        height={400}
+                        src="/img/caps/vondutch/von5.png"
+                    />
 
 
-                        <Image
-                            className="boxy  ml-5"
-                            width={370}
-                            height={360}
-                            src="/img/travis/rott.png"
-                        />
-
-                    </div>
-                    <button role="link"
-                        onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
-                    </button>
+                    <Image
+                        className="boxy  ml-5"
+                        width={370}
+                        height={360}
+                        src="/img/travis/rott.png"
+                    />
 
                 </div>
+                <button role="link"
+                    onClick={() => router.push('/Payment')}
+                    className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                    PROCEED TO PAYMENT
+                </button>
 
 
+                <div className=" ">
+
+
+                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	"></p>
+
+
+
+                </div>
+               
+
+
+                {/* CLOTHES */}
+                <div className="clothes content-center  pl-2	 ">
+
+                    <Image
+                        width={400}
+                        height={300}
+                        src="/img/travis/rot1.png"
+
+                    />
+
+
+                    <Image className="boxy "
+                        width={460}
+                        height={360}
+                        src="/img/fearOfGod/rot2.png"
+
+                    />
+                    <Image
+                        className=" boxy "
+                        width={400}
+                        height={400}
+                        src="/img/caps/vondutch/von5.png"
+                    />
+
+
+                    <Image
+                        className="boxy  ml-5"
+                        width={370}
+                        height={360}
+                        src="/img/travis/rott.png"
+                    />
+
+                </div>
+                <button role="link"
+                    onClick={() => router.push('/Payment')}
+                    className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                    PROCEED TO PAYMENT
+                </button>
+
+
+                <div className=" ">
+
+
+                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">Top selling this week</p>
+
+
+
+                </div>
+               
+
+
+                {/* CLOTHES */}
+                <div className="clothes content-center  pl-2	 ">
+
+                    <Image
+                        width={400}
+                        height={300}
+                        src="/img/travis/rot1.png"
+
+                    />
+
+
+                    <Image className="boxy "
+                        width={460}
+                        height={360}
+                        src="/img/fearOfGod/rot2.png"
+
+                    />
+                    <Image
+                        className=" boxy "
+                        width={400}
+                        height={400}
+                        src="/img/caps/vondutch/von5.png"
+                    />
+
+
+                    <Image
+                        className="boxy  ml-5"
+                        width={370}
+                        height={360}
+                        src="/img/travis/rott.png"
+                    />
+
+                </div>
+                <button role="link"
+                    onClick={() => router.push('/Payment')}
+                    className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                    PROCEED TO PAYMENT
+                </button>
+
+
+
+
+                <br />
+                <br />
+                <br />
+                <br />
 
 
                 <div className="bg-black h-96	md:h-72 mt-10 customer  ">
@@ -271,7 +294,7 @@ function LandingPage() {
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-4 col-sm-12 col-xs-12">
                         <div class="card p-3 p-md-4 text-white"> <span><i class="fa fa-envelope-open-o fa-2x" aria-hidden="true"></i></span>
-                            <h6 class="my-3 text-black text-center font-semibold"> Subscribe to our newsletter </h6>
+                            <h6 class="my-3 text-black text-center font-semibold"> Subscribe to the newsletter </h6>
                             <div class="row d-flex my-2 pr-2 pr-md-5 div1">
                                 <div class="col-9"> <input type="email" class="form-control bg-white py-3" id="inp1" placeholder="Enter email address" /> </div>
                                 <div class="col-3 px-0"> <button class="button send text-white px-4 py-2"> Send </button> </div>

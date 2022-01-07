@@ -1123,7 +1123,6 @@ textarea {
     margin-right:25%;
 }
 .bt{
-  margin-top: 50px;
   margin-bottom: 20px;
   display: inline-block;
   width:30%;
@@ -1131,7 +1130,7 @@ textarea {
   margin-right:30%;
   border-radius: 7px;
   position: relative;
-  left: 30px;
+  le
 }
 
 

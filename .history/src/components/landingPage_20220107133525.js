@@ -136,14 +136,14 @@ function LandingPage() {
                     </div>
                     <button role="link"
                         onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
+                        className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                        PROCEED TO PAYMENT
                     </button>
 
                 </div>
 
-                <div className="newArrival">
-                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">New Arrivals</p>
+                <div className=" ">
+                <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">New Arrivals</p>
 
                     <div className="clothes content-center  pl-2	 ">
 
@@ -179,8 +179,8 @@ function LandingPage() {
                     </div>
                     <button role="link"
                         onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
+                        className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                        PROCEED TO PAYMENT
                     </button>
 
                 </div>
@@ -192,9 +192,8 @@ function LandingPage() {
 
 
 
-                <div className="tabs">
-                    <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">********(i don know what to fill in here)</p>
-
+                <div className=" ">
+                <p className="text-center text-black text-3xl	t font-bold md:text-5xl lg:text-5xl 	">Fresh out the box</p>
 
                     <div className="clothes content-center  pl-2	 ">
 
@@ -230,15 +229,15 @@ function LandingPage() {
                     </div>
                     <button role="link"
                         onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
+                        className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                        PROCEED TO PAYMENT
                     </button>
 
                 </div>
 
 
 
-
+               
                 <div className="bg-black h-96	md:h-72 mt-10 customer  ">
 
 

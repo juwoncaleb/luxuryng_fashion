@@ -388,14 +388,6 @@ left: 45px;
 .topSelling{
   margin-bottom: 180px;
 }
-.newArrival{
-  margin-bottom: 180px;
-
-}
-.tabs{
-  margin-bottom: 200px;
-
-}
 
 iframe {
   margin: auto;
@@ -1121,17 +1113,6 @@ textarea {
   width:50%;
     margin-left:25%;
     margin-right:25%;
-}
-.bt{
-  margin-top: 50px;
-  margin-bottom: 20px;
-  display: inline-block;
-  width:30%;
-  margin-left:30%;
-  margin-right:30%;
-  border-radius: 7px;
-  position: relative;
-  left: 30px;
 }
 
 

@@ -136,8 +136,8 @@ function LandingPage() {
                     </div>
                     <button role="link"
                         onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
+                        className={`button  mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                        PROCEED TO PAYMENT
                     </button>
 
                 </div>
@@ -178,10 +178,9 @@ function LandingPage() {
 
                     </div>
                     <button role="link"
-                        onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
-                    </button>
+                        onClick={() => router.push('/Shirt')}
+                        className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+SEE MORE                    </button>
 
                 </div>
 
@@ -230,8 +229,8 @@ function LandingPage() {
                     </div>
                     <button role="link"
                         onClick={() => router.push('/Payment')}
-                        className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
-                        CLICK TO SEE MORE
+                        className={`button btt mt-2 mb-6  font-semibold pl-5 pr-5 `}>
+                        PROCEED TO PAYMENT
                     </button>
 
                 </div>
