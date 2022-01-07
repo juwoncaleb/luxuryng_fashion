@@ -166,7 +166,7 @@ increasebutton
 @media only screen and (max-width: 375px) {
   .landingpagetext {
 position: relative;
-left: 10px;   
+left: 45px;   
   }
 }
 .t{
@@ -463,25 +463,42 @@ iframe {
   background-color: white !important;
  
 }
+
+
 @media (max-width: 375px) {
   .navbar-toggler{
     position: relative;
-    right: 1000px;
+    left: 10px;
+    right: ;
   }
 }
-
-
 @media (max-width: 425px) {
   .navbar-toggler{
     position: relative;
-    left: 10px;
+    left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-toggler{
+    position: relative;
+    left: 140px;
   }
 }
 
 
-
-
-
+@media (max-width: 320px) {
+  .navbar-toggler{
+    position: relative;
+    top: -5px;
+    left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-toggler{
+    position: relative;
+   right: 100px;
+  }
+}
 
 
 
