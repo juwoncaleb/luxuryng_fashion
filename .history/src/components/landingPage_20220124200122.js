@@ -156,7 +156,7 @@ function LandingPage() {
 
                 <div className="newArrival">
                     <div class="container">
-                    <h1 class="neon text-3xl">New Arrival</h1>
+                    <h1 class="neon">New Arrival</h1>
                 </div>
                 <br/>
                 <br/>
