@@ -136,18 +136,17 @@ function LandingPage() {
           </div>
           <br />
           <br />
-          <div class="center">
-            <button class="fancy">
-              <span class="top-key"></span>
-              <a href="#" target="_blank" class="">
-              View More 
-              </a>
-              <span class="bottom-key-1"></span>
-              <span class="bottom-key-2"></span>
-            </button>
-          </div>
-
           
+          <a class="button" href="#">
+            Press me!
+          </a>
+          <button
+            role="link"
+            onClick={() => router.push("/Cap")}
+            className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}
+          >
+            VIEW MORE
+          </button>
         </div>
 
         <div className="newArrival">
@@ -178,15 +177,13 @@ function LandingPage() {
           </div>
           <br />
           <br />
-          <div class="center">
-            <button class="fancy">
-              <span class="top-key"></span>
-              <a href="#" target="_blank" class="">
-View More              </a>
-              <span class="bottom-key-1"></span>
-              <span class="bottom-key-2"></span>
-            </button>
-          </div>
+          <button
+            role="link"
+            onClick={() => router.push("/Shirt")}
+            className={`button bt mt-2 mb-6  font-semibold pl-5 pr-5 `}
+          >
+            VIEW MORE
+          </button>
         </div>
 
         {/* CLOTHES */}

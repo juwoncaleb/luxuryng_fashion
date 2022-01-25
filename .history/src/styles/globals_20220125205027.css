@@ -1129,9 +1129,9 @@ textarea {
 
 }
 .icoontext{
-  font-size: 17px;
+  font-size: 15px;
   position: relative;
-  top: 8px !important;
+  top: 5px ;
   left: 15px;
 }
 .icoon{
