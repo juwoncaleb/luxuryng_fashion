@@ -85,10 +85,16 @@ function Header() {
                 <Nav.Link className="carticon" href="#action1">
 
                     <div onClick={() => router.push('/checkout')} className="cursor-pointer  relative links flex items-center">
-                        <span className="absolute icoontext ml-18 top-0 right-0 md:right-10 h-4 w-4 mt-2    text-white font-bold"> {items.length} </span>
-                        <Icon icon="bytesize:bag" color="white" width="37" />
+                        <span className="absolute icoontext ml-18 top-0 right-0 md:right-10 h-4 w-4    text-white text-2xl font-bold"> {items.length} </span>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" color="white>
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+</svg>
 
-
+                        <Icon icon="heroicons-solid:shopping-cart" className="icoon" color="white" height="40" />
                     </div>
                 </Nav.Link>
             </Container>

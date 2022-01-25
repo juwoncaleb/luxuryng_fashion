@@ -1077,11 +1077,8 @@ textarea {
 @media screen and (min-width: 414px) {
   .navbar-toggler  {
   position: relative;
-  top: 3px;
-  left: 53px;
-  height: 27px;
-  width: 40px;
-  font-size: 12px !important
+  left: 40px;
+  height: 35px;
   }
 }
 
@@ -1124,15 +1121,10 @@ textarea {
     padding: 15px 25px;
   }
 }
-.cartbag{
-  width: 45px;
-
-}
 .icoontext{
   font-size: 15px;
   position: relative;
-  top: 3px;
-  left: 15px;
+  left: 13px;
 }
 .icoon{
   height: 30px;

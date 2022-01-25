@@ -263,7 +263,7 @@ function LandingPage() {
 
 
                         <p>
-                            <a href="https://www.instagram.com/luxuryclosetng/"
+                            <a href="https://www.instagram.com/imsanketbodke/?hl=en"
                             ><i class="fab fa-instagram"> </i> <br />
 
                             </a
@@ -272,8 +272,9 @@ function LandingPage() {
                     </div>
                     <div class="links">
                         <h4 className="font-semibold">Quick links</h4>
-                        <p><a href="#">About us</a></p>
-                         <p><a href="#">Terms Of Service</a></p>
+                        <p><a href="#">Contact</a></p>
+
+                        <p><a href="#">Terms Of Service</a></p>
                         <p><a href="#">Privacy Policy</a></p>
                         <p><a href="#">Return Policy</a></p>
                         <p><a href="#">FAQ</a></p>

@@ -44,7 +44,7 @@ function Header() {
 
 
 
-                    <Nav className=" ham" style={{ maxHeight: '500px' }} navbarScroll  >
+                    <Nav className=" ham" style={{ maxHeight: '400px' }} navbarScroll  >
 
 
 

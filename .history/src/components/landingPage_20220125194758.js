@@ -263,7 +263,7 @@ function LandingPage() {
 
 
                         <p>
-                            <a href="https://www.instagram.com/luxuryclosetng/"
+                            <a href="https://www.instagram.com/imsanketbodke/?hl=en"
                             ><i class="fab fa-instagram"> </i> <br />
 
                             </a

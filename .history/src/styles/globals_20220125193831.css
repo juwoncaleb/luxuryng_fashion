@@ -1077,11 +1077,11 @@ textarea {
 @media screen and (min-width: 414px) {
   .navbar-toggler  {
   position: relative;
-  top: 3px;
-  left: 53px;
-  height: 27px;
+  left: 50px;
+  height: 33px;
   width: 40px;
-  font-size: 12px !important
+  padding-left: 10px;
+  font-size: 15px !important
   }
 }
 

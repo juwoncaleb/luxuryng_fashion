@@ -85,7 +85,7 @@ function Header() {
                 <Nav.Link className="carticon" href="#action1">
 
                     <div onClick={() => router.push('/checkout')} className="cursor-pointer  relative links flex items-center">
-                        <span className="absolute icoontext ml-18 top-0 right-0 md:right-10 h-4 w-4 mt-2    text-white font-bold"> {items.length} </span>
+                        <span className="absolute icoontext ml-18 top-0 right-0 md:right-10 h-4 w-4 mt-2    text-white text-1xl font-bold"> {items.length} </span>
                         <Icon icon="bytesize:bag" color="white" width="37" />
 
 
