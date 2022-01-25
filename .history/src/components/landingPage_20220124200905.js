@@ -6,11 +6,11 @@ import '@fortawesome/fontawesome-free/js/all.js';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Footer from "./Footer";
-import AOS from 'aos';
 
 
 
 function LandingPage() {
+    AOS.init();
 
     return (
         <div>

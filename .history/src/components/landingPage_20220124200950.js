@@ -11,6 +11,7 @@ import AOS from 'aos';
 
 
 function LandingPage() {
+    AOS.init();
 
     return (
         <div>

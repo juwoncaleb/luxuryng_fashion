@@ -6,11 +6,11 @@ import '@fortawesome/fontawesome-free/js/all.js';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Footer from "./Footer";
-import AOS from 'aos';
 
 
 
 function LandingPage() {
+    AOS.init();
 
     return (
         <div>
@@ -107,9 +107,7 @@ function LandingPage() {
                     <div className="clothes content-center  pl-2	 ">
 
 
-                        <Image 
-                        data-aos="fade-up"
-                        data-aos-duration="3000"
+                        <Image
                             width={350}
                             height={280}
                             src="/img/travis/cac.png"
