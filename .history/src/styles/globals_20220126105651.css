@@ -14,12 +14,10 @@
 
   
 }
-
-
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Play&display=swap');
 body{
   font-family: 'Montserrat', sans-serif;
 }
-
 
 .button{
   width: 100px;
@@ -169,8 +167,6 @@ increasebutton
   .landingpagetext {
 position: relative;
 left: 10px;   
-font-family: 'Michroma', sans-serif;
-font-family: 'Play', sans-serif;
   }
 }
 .t{
