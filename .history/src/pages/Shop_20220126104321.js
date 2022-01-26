@@ -188,7 +188,7 @@ Briefs
           </a>
 
           <a
-            onClick={() => router.push("/Caps")}
+            onClick={() => router.push("/Shirt")}
             target="_blank"
             class="gallery__link"
           >

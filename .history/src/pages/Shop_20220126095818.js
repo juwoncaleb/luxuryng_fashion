@@ -21,8 +21,9 @@ function Shop() {
                 alt="Portrait by Jessica Felicio"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="img1">
-                  Tops
+              <figcaption class="gallery__caption">
+                <button>jjf</button>
+                Portrait by Jessica Felicio
               </figcaption>
             </figure>
           </a>
@@ -39,7 +40,7 @@ function Shop() {
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-Sweater 
+                Portrait by Oladimeji Odunsi
               </figcaption>
             </figure>
           </a>
@@ -51,13 +52,13 @@ Sweater
           >
             <figure class="gallery__thumb">
               <img
-              className="noah"
                 src="/img/l4.jpg"
                 alt="Portrait by Alex Perez"
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-BAGS              </figcaption>
+                Portrait by Alex Perez
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -68,14 +69,15 @@ BAGS              </figcaption>
             target="_blank"
             class="gallery__link"
           >
-            <figure class="gallery__thumb" >
-              <img className="noah"
+            <figure class="gallery__thumb">
+              <img
                 src="/img/l5.jpg"
                 alt="Portrait by Noah Buscher"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="img2">
-Watches              </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Noah Buscher
+              </figcaption>
             </figure>
           </a>
 
@@ -90,7 +92,7 @@ Watches              </figcaption>
                 alt="Portrait by Ivana Cajina"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="ivan">
+              <figcaption class="gallery__caption">
                 Portrait by Ivana Cajina
               </figcaption>
             </figure>
@@ -103,13 +105,13 @@ Watches              </figcaption>
           >
             <figure class="gallery__thumb">
               <img
-              className="noah"
                 src="/img/l7.jpg"
                 alt="Portrait by Sam Burriss"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="img4">
-KAKI              </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Sam Burriss
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -126,9 +128,9 @@ KAKI              </figcaption>
                 alt="Portrait by Mari Lezhava"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="briefs">
-Briefs         
-     </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Mari Lezhava
+              </figcaption>
             </figure>
           </a>
 
@@ -139,7 +141,6 @@ Briefs
           >
             <figure class="gallery__thumb">
               <img
-              className="noah"
                 src="/img/l9.jpg"
                 alt="Portrait by Ethan Haddox"
                 class="gallery__image"
@@ -157,13 +158,12 @@ Briefs
           >
             <figure class="gallery__thumb">
               <img
-              className="noahh"
                 src="/img/l10.jpg"
                 alt="Portrait by Amir Geshani"
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-            Tops
+                Portrait by Amir Geshani
               </figcaption>
             </figure>
           </a>
@@ -181,26 +181,10 @@ Briefs
                 alt="Portrait by Guilian Fremaux"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="im9">
+              <figcaption class="gallery__caption">
+                <button></button>
                 Portrait by Guilian Fremaux
               </figcaption>
-            </figure>
-          </a>
-
-          <a
-            onClick={() => router.push("/Caps")}
-            target="_blank"
-            class="gallery__link"
-          >
-            <figure class="gallery__thumb">
-              <img
-              className="noah"
-                src="/img/caps/vondutch/von5.png"
-                alt="Portrait by Jasmin Chew"
-                class="gallery__image"
-              />
-              <figcaption class="gallery__caption" >
-CAP              </figcaption>
             </figure>
           </a>
 
@@ -211,21 +195,34 @@ CAP              </figcaption>
           >
             <figure class="gallery__thumb">
               <img
-              className="noah"
+                src="/img/caps/vondutch/von5.png"
+                alt="Portrait by Jasmin Chew"
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                Portrait by Jasmin Chew
+              </figcaption>
+            </figure>
+          </a>
+
+          <a
+            onClick={() => router.push("/Shirt")}
+            target="_blank"
+            class="gallery__link"
+          >
+            <figure class="gallery__thumb">
+              <img
                 src="/img/travis/rott.png"
                 alt="Portrait by Dima DallAcqua"
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-JACKET              </figcaption>
+                Portrait by Dima DallAcqua
+              </figcaption>
             </figure>
           </a>
         </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <div class="footer">
         <div class="content">
           <div class="social-media">

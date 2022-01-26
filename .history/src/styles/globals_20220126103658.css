@@ -1724,7 +1724,7 @@ right: 90px;
  
   .gallery__caption {
     position: absolute;
-    margin-top: 10px;
+    top: ;
     bottom: 0;
     left: 0;
     padding: 25px 15px 15px;
@@ -1741,7 +1741,4 @@ right: 90px;
   .gallery__caption {
     font-size: 15px;
   }
-}
-#ivan{
-  color: white;
 }

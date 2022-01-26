@@ -57,7 +57,7 @@ Sweater
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-BAGS              </figcaption>
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -109,7 +109,8 @@ Watches              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption" id="img4">
-KAKI              </figcaption>
+                Portrait by Sam Burriss
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -163,7 +164,7 @@ Briefs
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-            Tops
+                Portrait by Amir Geshani
               </figcaption>
             </figure>
           </a>
@@ -188,7 +189,7 @@ Briefs
           </a>
 
           <a
-            onClick={() => router.push("/Caps")}
+            onClick={() => router.push("/Shirt")}
             target="_blank"
             class="gallery__link"
           >
@@ -217,7 +218,8 @@ CAP              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-JACKET              </figcaption>
+                Portrait by Dima DallAcqua
+              </figcaption>
             </figure>
           </a>
         </div>

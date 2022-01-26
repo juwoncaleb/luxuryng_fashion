@@ -21,8 +21,9 @@ function Shop() {
                 alt="Portrait by Jessica Felicio"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="img1">
-                  Tops
+              <figcaption class="gallery__caption">
+                <button>jjf</button>
+                Portrait by Jessica Felicio
               </figcaption>
             </figure>
           </a>
@@ -39,7 +40,7 @@ function Shop() {
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-Sweater 
+                Portrait by Oladimeji Odunsi
               </figcaption>
             </figure>
           </a>
@@ -57,7 +58,8 @@ Sweater
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-BAGS              </figcaption>
+                Portrait by Alex Perez
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -74,8 +76,9 @@ BAGS              </figcaption>
                 alt="Portrait by Noah Buscher"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="img2">
-Watches              </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Noah Buscher
+              </figcaption>
             </figure>
           </a>
 
@@ -90,7 +93,7 @@ Watches              </figcaption>
                 alt="Portrait by Ivana Cajina"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="ivan">
+              <figcaption class="gallery__caption">
                 Portrait by Ivana Cajina
               </figcaption>
             </figure>
@@ -108,8 +111,9 @@ Watches              </figcaption>
                 alt="Portrait by Sam Burriss"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="img4">
-KAKI              </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Sam Burriss
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -126,9 +130,9 @@ KAKI              </figcaption>
                 alt="Portrait by Mari Lezhava"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="briefs">
-Briefs         
-     </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Mari Lezhava
+              </figcaption>
             </figure>
           </a>
 
@@ -163,7 +167,7 @@ Briefs
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-            Tops
+                Portrait by Amir Geshani
               </figcaption>
             </figure>
           </a>
@@ -181,14 +185,15 @@ Briefs
                 alt="Portrait by Guilian Fremaux"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="im9">
+              <figcaption class="gallery__caption">
+                <button></button>
                 Portrait by Guilian Fremaux
               </figcaption>
             </figure>
           </a>
 
           <a
-            onClick={() => router.push("/Caps")}
+            onClick={() => router.push("/Shirt")}
             target="_blank"
             class="gallery__link"
           >
@@ -199,8 +204,9 @@ Briefs
                 alt="Portrait by Jasmin Chew"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" >
-CAP              </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Jasmin Chew
+              </figcaption>
             </figure>
           </a>
 
@@ -217,15 +223,13 @@ CAP              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-JACKET              </figcaption>
+                Portrait by Dima DallAcqua
+              </figcaption>
             </figure>
           </a>
         </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <b
       <div class="footer">
         <div class="content">
           <div class="social-media">

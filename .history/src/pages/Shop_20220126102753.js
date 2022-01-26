@@ -22,7 +22,6 @@ function Shop() {
                 class="gallery__image"
               />
               <figcaption class="gallery__caption" id="img1">
-                  Tops
               </figcaption>
             </figure>
           </a>
@@ -39,7 +38,7 @@ function Shop() {
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-Sweater 
+                Portrait by Oladimeji Odunsi
               </figcaption>
             </figure>
           </a>
@@ -57,7 +56,8 @@ Sweater
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-BAGS              </figcaption>
+                Portrait by Alex Perez
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -75,7 +75,8 @@ BAGS              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption" id="img2">
-Watches              </figcaption>
+                Portrait by Noah Buscher
+              </figcaption>
             </figure>
           </a>
 
@@ -90,7 +91,7 @@ Watches              </figcaption>
                 alt="Portrait by Ivana Cajina"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="ivan">
+              <figcaption class="gallery__caption">
                 Portrait by Ivana Cajina
               </figcaption>
             </figure>
@@ -109,7 +110,8 @@ Watches              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption" id="img4">
-KAKI              </figcaption>
+                Portrait by Sam Burriss
+              </figcaption>
             </figure>
           </a>
         </div>
@@ -126,9 +128,9 @@ KAKI              </figcaption>
                 alt="Portrait by Mari Lezhava"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" id="briefs">
-Briefs         
-     </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Mari Lezhava
+              </figcaption>
             </figure>
           </a>
 
@@ -163,7 +165,7 @@ Briefs
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-            Tops
+                Portrait by Amir Geshani
               </figcaption>
             </figure>
           </a>
@@ -188,7 +190,7 @@ Briefs
           </a>
 
           <a
-            onClick={() => router.push("/Caps")}
+            onClick={() => router.push("/Shirt")}
             target="_blank"
             class="gallery__link"
           >
@@ -199,8 +201,9 @@ Briefs
                 alt="Portrait by Jasmin Chew"
                 class="gallery__image"
               />
-              <figcaption class="gallery__caption" >
-CAP              </figcaption>
+              <figcaption class="gallery__caption">
+                Portrait by Jasmin Chew
+              </figcaption>
             </figure>
           </a>
 
@@ -217,7 +220,8 @@ CAP              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-JACKET              </figcaption>
+                Portrait by Dima DallAcqua
+              </figcaption>
             </figure>
           </a>
         </div>

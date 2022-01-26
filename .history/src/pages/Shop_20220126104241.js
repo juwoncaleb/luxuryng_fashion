@@ -163,7 +163,7 @@ Briefs
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-            Tops
+                  
               </figcaption>
             </figure>
           </a>
@@ -188,7 +188,7 @@ Briefs
           </a>
 
           <a
-            onClick={() => router.push("/Caps")}
+            onClick={() => router.push("/Shirt")}
             target="_blank"
             class="gallery__link"
           >
@@ -217,7 +217,8 @@ CAP              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-JACKET              </figcaption>
+                Portrait by Dima DallAcqua
+              </figcaption>
             </figure>
           </a>
         </div>

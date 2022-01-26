@@ -1695,12 +1695,11 @@ right: 60px;
 #img1{
   color: white;
 }
-
+#img2{
+}
 #im9{
   color: white;
 }
-
-
 @media only screen and (max-width: 830px) {
   .noahh {
 position: relative;
@@ -1724,7 +1723,6 @@ right: 90px;
  
   .gallery__caption {
     position: absolute;
-    margin-top: 10px;
     bottom: 0;
     left: 0;
     padding: 25px 15px 15px;
@@ -1742,6 +1740,5 @@ right: 90px;
     font-size: 15px;
   }
 }
-#ivan{
-  color: white;
-}
+
+  

@@ -188,7 +188,7 @@ Briefs
           </a>
 
           <a
-            onClick={() => router.push("/Caps")}
+            onClick={() => router.push("/Shirt")}
             target="_blank"
             class="gallery__link"
           >
@@ -217,7 +217,7 @@ CAP              </figcaption>
                 class="gallery__image"
               />
               <figcaption class="gallery__caption">
-JACKET              </figcaption>
+jac              </figcaption>
             </figure>
           </a>
         </div>

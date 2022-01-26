@@ -1689,18 +1689,7 @@ position: relative;
 right: 60px;    
   }
 }
-#img4{
-  color: white;
-}
-#img1{
-  color: white;
-}
-
-#im9{
-  color: white;
-}
-
-
+.
 @media only screen and (max-width: 830px) {
   .noahh {
 position: relative;
@@ -1720,11 +1709,8 @@ right: 90px;
   .gallery__image:hover {
     transform: scale(1.1);
  }
-
- 
   .gallery__caption {
     position: absolute;
-    margin-top: 10px;
     bottom: 0;
     left: 0;
     padding: 25px 15px 15px;
@@ -1737,11 +1723,4 @@ right: 90px;
     background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
     transition: 0.3s; */
  }
- @media only screen and (max-width: 994px) {
-  .gallery__caption {
-    font-size: 15px;
-  }
-}
-#ivan{
-  color: white;
-}
+  
