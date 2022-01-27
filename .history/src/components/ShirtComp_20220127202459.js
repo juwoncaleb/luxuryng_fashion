@@ -10,7 +10,7 @@ function ShirtComp({}) {
   return (
     <div>
       <div id="container">
-        
+        <div class="cell">
           <input
             onChange={(event) => {
               setSearchTerm(event.target.value);
@@ -18,7 +18,7 @@ function ShirtComp({}) {
             type="search"
             placeholder="Search"
           />
-        
+        </div>
         <div class="cell">
           <div class="button">Search</div>
         </div>

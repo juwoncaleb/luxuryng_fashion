@@ -2044,10 +2044,10 @@ form:invalid + button {
   
   margin: 50px auto 0;
 }
-#container div.cell {
+div#container div.cell {
   display: table-cell;
 }
-#container div.cell:last-child {
+div#container div.cell:last-child {
   /* Makes sure this cell is only wide enough
      for the button label. */
   width: 1px;
@@ -2075,7 +2075,7 @@ input[type=search] {
   border-bottom-left-radius: 5px;
 }
 
-.button {
+div.button {
   line-height: 35px;
 
   margin: 0;

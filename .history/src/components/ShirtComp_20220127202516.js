@@ -18,7 +18,7 @@ function ShirtComp({}) {
             type="search"
             placeholder="Search"
           />
-        
+        </div>
         <div class="cell">
           <div class="button">Search</div>
         </div>

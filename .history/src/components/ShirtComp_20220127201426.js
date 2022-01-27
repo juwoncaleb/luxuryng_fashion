@@ -2,6 +2,8 @@ import Image from "next/image";
 
 import products from "../product/MenShoes/MenShoes";
 import Items from "../app/Items";
+import { useState } from "react";
+
 
 
 function ShirtComp ({}) {
@@ -10,6 +12,7 @@ function ShirtComp ({}) {
 
     return (
         <div>
+            
             <div class="main items-center justify-center content-center	">
         <input type="text" name="input" class="input" placeholder="Search Something....." onChange={(event) => {
             setSearchTerm(event.target.value);

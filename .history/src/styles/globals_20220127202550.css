@@ -2064,16 +2064,6 @@ input[type=search], div.button {
   font-size: inherit;
 }
 
-input[type=search] {
-  margin: 0;
-  padding: 0 10px;
-  
-  background-color: #f8f8f8;
-  
-  border: 0;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
 
 .button {
   line-height: 35px;

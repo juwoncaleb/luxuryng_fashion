@@ -12,10 +12,12 @@ function ShirtComp ({}) {
 
     return (
         <div>
+            
             <div class="main items-center justify-center content-center	">
         <input type="text" name="input" class="input" placeholder="Search Something....." onChange={(event) => {
             setSearchTerm(event.target.value);
         }} />
+        
 
     </div>
         <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">

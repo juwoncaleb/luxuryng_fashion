@@ -9,7 +9,7 @@ function ShirtComp({}) {
 
   return (
     <div>
-      <div id="container">
+      < id="container">
         
           <input
             onChange={(event) => {

@@ -9,21 +9,21 @@ function ShirtComp({}) {
 
   return (
     <div>
+      
+      
       <div id="container">
-        
-          <input
-            onChange={(event) => {
-              setSearchTerm(event.target.value);
-            }}
-            type="search"
-            placeholder="Search"
-          />
-        
         <div class="cell">
-          <div class="button">Search</div>
+          <input onChange={(event) => {
+            setSearchTerm(event.target.value);
+          }} type="search" placeholder="Search" />
+        </div>
+        <div class="cell">
+          <div class="button">Give'r</div>
         </div>
       </div>
-
+      
+      
+      
       <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
         {products
           .filter((val) => {
