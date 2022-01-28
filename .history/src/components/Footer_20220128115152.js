@@ -1,6 +1,3 @@
-import { useRouter } from "next/router";
-
-
 function Footer() {
     const router = useRouter();
 
