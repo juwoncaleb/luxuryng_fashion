@@ -8,8 +8,6 @@ function About() {
       <div class="wrap">
         <h1>LUXURY CLOSET</h1>
         <br/>
-        <br/>
-        <br/>
         
         <p>
           <a href="#" class="underlined underlined--thin">

@@ -10,7 +10,7 @@ function About() {
         <br/>
         <br/>
         <br/>
-        
+        <br/>
         <p>
           <a href="#" class="underlined underlined--thin">
             Luxury closet NG was established in 2016 to serve as a bridge
