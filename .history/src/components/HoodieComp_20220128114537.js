@@ -1,15 +1,11 @@
-import Image from "next/image";
-import { useState } from "react";
-
 
 import products from "../product/MenShoes/MenShoes";
 import Items from "../app/Items";
+import { useState } from "react";
 
 
-
-function SweatShirtComp({ }) {
+function HoodieComp() {
     const [searchTerm, setSearchTerm] = useState('')
-
 
     return (
         <div>
@@ -17,18 +13,19 @@ function SweatShirtComp({ }) {
                 <input type="text" name="input" class="input" placeholder="Search Something....." onChange={(event) => {
                     setSearchTerm(event.target.value);
                 }} />
+                <img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"/>
 
             </div>
-            <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
-                {
-                    products
-                        .filter((val) => {
+            <div>
+                <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
+                    {
+                        products.filter((val) => {
                             if (searchTerm == "") {
                                 return val
                             } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
                                 return val
                             }
-
+    
                         }).map(({ id, name, price, size, image }) => {
                             return <Items
                                 key={id}
@@ -40,9 +37,12 @@ function SweatShirtComp({ }) {
                             />
 
                         })
-                }
+                    }
+                </div>
+
             </div>
+            )
         </div>
-    )
-}
-export default SweatShirtComp 
+    )}
+
+export default HoodieComp

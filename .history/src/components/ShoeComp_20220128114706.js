@@ -4,21 +4,27 @@ import { useState } from "react";
 import products from "../product/MenShoes/MenShoes";
 import Items from "../app/Items";
 
-function SweatShirtComp({}) {
+function ShoeComp() {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
     <div>
-      <div class="block">
+      <form class="search-container">
         <input
           type="text"
+          id="search-barrr"
+          placeholder="Search"
           onChange={(event) => {
             setSearchTerm(event.target.value);
           }}
-          placeholder="SEARCH"
-          class="input-res"
         />
-      </div>
+        <a href="#">
+          <img
+            class="search-icon"
+            src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"
+          />
+        </a>
+      </form>
       <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
         {products
           .filter((val) => {
@@ -46,4 +52,5 @@ function SweatShirtComp({}) {
     </div>
   );
 }
-export default SweatShirtComp;
+
+export default ShoeComp;

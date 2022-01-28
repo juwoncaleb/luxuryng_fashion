@@ -1,24 +1,36 @@
-import Image from "next/image";
-import { useState } from "react";
-
 import products from "../product/MenShoes/MenShoes";
 import Items from "../app/Items";
+import { useState } from "react";
+import "@fortawesome/fontawesome-free/js/all.js";
 
-function SweatShirtComp({}) {
+function JacketComp() {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
     <div>
-      <div class="block">
-        <input
-          type="text"
-          onChange={(event) => {
+
+<div class="block">
+    <input type="text" onChange={(event) => {
             setSearchTerm(event.target.value);
-          }}
-          placeholder="SEARCH"
-          class="input-res"
-        />
-      </div>
+          }} placeholder="SEARCH" class="input-res"/>
+    </div>
+
+{/*      
+      <div class="input-wrapper">
+        <input    class="kpk" type="text" placeholder="Search" />
+      </div> */}
+
+      {/* <div className="search">
+
+
+                <form class="form-search" method="get" action="#">
+                    <input type="search" name="search" placeholder="" />
+                    <button type="submit">Search</button>
+
+                </form>
+
+            </div> */}
+
       <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
         {products
           .filter((val) => {
@@ -46,4 +58,5 @@ function SweatShirtComp({}) {
     </div>
   );
 }
-export default SweatShirtComp;
+
+export default JacketComp;
