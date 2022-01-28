@@ -8,13 +8,15 @@ function JacketComp() {
 
   return (
     <div>
-
-<div class="block">
-    <input type="text" placeholder="SEARCH" class="input-res"/>
-    </div>
+      <form class="form-search" method="get" action="#">
+            <input type="search" name="search" placeholder="search your book here for..">
+            <button type="submit">Search</button>
+            
+        </form>
 
 {/*      
       <div class="input-wrapper">
+        <div class="fa fa-search"></div>
         <input  onChange={(event) => {
             setSearchTerm(event.target.value);
           }}  class="kpk" type="text" placeholder="Search" />

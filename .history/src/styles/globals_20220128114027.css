@@ -2171,7 +2171,7 @@ h2:first-child {
 }
 .input-res
 {
-  color: white;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
@@ -2185,7 +2185,7 @@ h2:first-child {
   margin: 0;
 }
 .block input::placeholder{
-  color: white;
+  color: black;
 position: relative;
 left: 30px;
 font-size: 50px;

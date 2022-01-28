@@ -7,11 +7,7 @@ function JacketComp() {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
-    <div>
-
-<div class="block">
-    <input type="text" placeholder="SEARCH" class="input-res"/>
-    </div>
+    
 
 {/*      
       <div class="input-wrapper">

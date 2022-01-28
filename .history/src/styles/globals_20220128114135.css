@@ -524,7 +524,7 @@ iframe {
 }
 
 .input::placeholder{
-	color: black !important;
+	color: white !important;
   position: relative;
   left: 100px;
   top: 5px;
@@ -2171,7 +2171,7 @@ h2:first-child {
 }
 .input-res
 {
-  color: white;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;

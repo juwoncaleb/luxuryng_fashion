@@ -10,8 +10,7 @@ function JacketComp() {
     <div>
 
 <div class="block">
-    <input type="text" placeholder="SEARCH" class="input-res"/>
-    </div>
+    <input type="text" placeholder="SEARCH" class="input-res"/></div>
 
 {/*      
       <div class="input-wrapper">
