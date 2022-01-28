@@ -9,22 +9,34 @@ function ShirtComp({}) {
 
   return (
     <div>
-      <form class="search-container">
+<div class="container">
+   <div class="search-box">
+      <input type="text" class="search-input" placeholder="Search.."/>
+
+      <button class="search-button">
+        <i class="fas fa-search"></i>
+      </button>
+   </div>
+</div>
+
+
+
+      <div id="search">
         <input
-          type="text"
-          id="search-bar"
-          placeholder="Search"
+          id="input"
+          placeholder="Search..."
           onChange={(event) => {
             setSearchTerm(event.target.value);
           }}
         />
-        <a href="#">
-          <img
-            class="search-icon"
-            src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"
-          />
-        </a>
-      </form>
+        <button id="button">
+          <i class="fa fa-search"></i>
+        </button>
+        <div class="spinner">
+          <i class="fa fa-spinner"></i>
+        </div>
+      </div>
+      
 
       <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
         {products

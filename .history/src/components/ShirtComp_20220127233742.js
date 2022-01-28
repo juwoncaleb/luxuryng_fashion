@@ -9,21 +9,21 @@ function ShirtComp({}) {
 
   return (
     <div>
-      <form class="search-container">
+      
+    
+      <form c onsubmit="event.preventDefault();" role="search">
+        <label for="search">Search for stuff</label>
         <input
-          type="text"
-          id="search-bar"
-          placeholder="Search"
           onChange={(event) => {
             setSearchTerm(event.target.value);
           }}
+          id="search"
+          type="search"
+          placeholder="Search..."
+          autofocus
+          required
         />
-        <a href="#">
-          <img
-            class="search-icon"
-            src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"
-          />
-        </a>
+        <button className="submit" type="submit">Go</button>
       </form>
 
       <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">

@@ -51,7 +51,7 @@ function Shop() {
         </div>
         <div class="item">
           <img
-           onClick={() => router.push("/Jacket")}
+            onClick={() => router.push("/SweatShirt")}
             src="/img/l3.jpg"
             alt="unsplash"
           />
@@ -75,7 +75,7 @@ function Shop() {
         </div>
         <div class="item">
           <img
-           onClick={() => router.push("/Jacket")}
+            onClick={() => router.push("/Jacket")}
             src="/img/l6.jpg"
             alt="unsplash"
           />

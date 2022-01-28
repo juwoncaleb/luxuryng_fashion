@@ -2049,7 +2049,7 @@ input#search-bar {
 }
 
 input#search-bar:focus {
-  border: 0.2px solid black;
+  border: 1px solid black;
   -webkit-transition: 0.35s ease;
   transition: 0.35s ease;
   color: black;

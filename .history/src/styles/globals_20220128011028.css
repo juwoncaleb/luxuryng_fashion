@@ -2049,10 +2049,10 @@ input#search-bar {
 }
 
 input#search-bar:focus {
-  border: 0.2px solid black;
+  border: 1px solid #008ABF;
   -webkit-transition: 0.35s ease;
   transition: 0.35s ease;
-  color: black;
+  color: #008ABF;
 }
 
 input#search-bar:focus::-webkit-input-placeholder {
