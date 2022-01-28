@@ -28,7 +28,7 @@ function Checkout() {
 
         <h1 className="text-center"></h1>
 
-        <div className="grid grid-flow-row-dense md:grid-cols-2 mb-10 lg:grid-cols-3">
+        <div className="grid grid-flow-row-dense md:grid-cols-2 mb lg:grid-cols-3">
           {items.map((item, id) => (
             <CheckoutProduct
               id={id}

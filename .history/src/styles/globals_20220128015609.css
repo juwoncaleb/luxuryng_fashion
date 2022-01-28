@@ -2049,9 +2049,9 @@ form:invalid + button {
   justify-content: center;
 	align-items: center;
 	width: 100%;
+	max-width: 300px;
+  width: 490px;
   display: block;
-  margin-left: 35%;
-  margin-right: 25%;
 
 }
 

@@ -2031,27 +2031,9 @@ form:invalid + button {
   }
 }
 
-
-.main{
-  position: relative;
-  top: 10px;
-  padding: auto;
-  display: flex;
-	
-	display: inline-flex;
-	border-radius: var(--border-radius);
-	position: relative;
-	
-}
-
 .search-container {
-
-  justify-content: center;
-	align-items: center;
-	width: 100%;
+  width: 490px;
   display: block;
-  margin-left: 35%;
-  margin-right: 25%;
 
 }
 
@@ -2098,14 +2080,13 @@ form:invalid + button {
   height: 75px;
   top: -100px;
   right: -15px;
-  
-  
+   position: fixed;
+    top: 50%;
+    left: 50%;
 }
 
 @media (max-width: 600px) {
   .search-container {
-    width: 350px;
-    position: relative;
-    right: 100px;
+    width: 300px;
   }
 }

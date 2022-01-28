@@ -2031,27 +2031,11 @@ form:invalid + button {
   }
 }
 
-
-.main{
-  position: relative;
-  top: 10px;
-  padding: auto;
-  display: flex;
-	
-	display: inline-flex;
-	border-radius: var(--border-radius);
-	position: relative;
-	
-}
-
 .search-container {
-
-  justify-content: center;
-	align-items: center;
-	width: 100%;
-  display: block;
-  margin-left: 35%;
-  margin-right: 25%;
+  width: 490px;
+  display: flex;
+ margin-left: 10%;
+ margin-right: 25%;
 
 }
 

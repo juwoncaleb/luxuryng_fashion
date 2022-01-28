@@ -2035,6 +2035,7 @@ form:invalid + button {
 .main{
   position: relative;
   top: 10px;
+  margin: auto;
   padding: auto;
   display: flex;
 	
@@ -2045,13 +2046,13 @@ form:invalid + button {
 }
 
 .search-container {
-
   justify-content: center;
 	align-items: center;
 	width: 100%;
+	max-width: 300px;
+  width: 490px;
   display: block;
-  margin-left: 35%;
-  margin-right: 25%;
+  margin: 0 20px;
 
 }
 

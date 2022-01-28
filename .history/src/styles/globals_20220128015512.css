@@ -2045,13 +2045,15 @@ form:invalid + button {
 }
 
 .search-container {
+  margin: auto;
 
   justify-content: center;
 	align-items: center;
 	width: 100%;
+	max-width: 300px;
+  width: 490px;
   display: block;
-  margin-left: 35%;
-  margin-right: 25%;
+  margin: 0 20px;
 
 }
 
