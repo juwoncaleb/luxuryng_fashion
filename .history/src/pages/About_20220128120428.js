@@ -23,7 +23,8 @@ function About() {
         </p>
         <br />
         <br />
-        
+        <br />
+        <br />
         <p>
           <a href="#" class="underlined underlined--thin">
             Despite this development, it seems like looking luxurious or dapper
@@ -33,7 +34,8 @@ function About() {
         </p>
         <br />
         <br />
-        
+        <br />
+        <br />
         <p>
           <a href="#" class="underlined underlined--thin">
             Luxury closet NG was born to defeat that narrative. Our mission is
