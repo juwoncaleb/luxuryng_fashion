@@ -2034,9 +2034,10 @@ form:invalid + button {
 .search-container {
   width: 490px;
   display: block;
- margin-left: 30%;
+ margin-left: 25%;
  margin-right: 25%;
-
+ position: relative;
+ left: 200px;
 }
 
 #search-barrr {
@@ -2090,6 +2091,6 @@ form:invalid + button {
   .search-container {
     width: 350px;
     position: relative;
-    right: 100px;
+    right: 70px;
   }
 }

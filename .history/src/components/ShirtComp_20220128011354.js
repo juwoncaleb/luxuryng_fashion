@@ -12,7 +12,7 @@ function ShirtComp({}) {
       <form class="search-container">
         <input
           type="text"
-          id="search-barrr"
+          id="search-bar"
           placeholder="Search"
           onChange={(event) => {
             setSearchTerm(event.target.value);
