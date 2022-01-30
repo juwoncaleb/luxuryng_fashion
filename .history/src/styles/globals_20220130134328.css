@@ -3052,22 +3052,3 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 .author-info a {
   color: white;
 }
-.ham{
-  position: relative;
-  left: 100px;
-}
-.sliderr > a {
-  display: inline-flex;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: white;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin: 0 0 0.5rem 0;
-  position: relative;
-}
-.sliderr > a:active {
-  top: 1px;
-}

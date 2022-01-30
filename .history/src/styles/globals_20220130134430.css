@@ -3071,3 +3071,7 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 .sliderr > a:active {
   top: 1px;
 }
+.sliderr > a:focus {
+  background: #000;
+}
+}
