@@ -3049,10 +3049,7 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 .author-info a {
   color: white;
 }
-.ham{
-  position: relative;
-  left: 100px;
-}
+
 /* Don't need button navigation */
 @supports (scroll-snap-type) {
   .slider > a {
@@ -3072,10 +3069,10 @@ input[type="checkbox"] + label, input[type="radio"] + label {
   margin: 0 0 0.5rem 0;
   position: relative;
 }
-.sliderr > a:active {
+.slider > a:active {
   top: 1px;
 }
-.sliderr > a:focus {
+.slider > a:focus {
   background: #000;
 }
 

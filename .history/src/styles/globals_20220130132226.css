@@ -3049,10 +3049,7 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 .author-info a {
   color: white;
 }
-.ham{
-  position: relative;
-  left: 100px;
-}
+
 /* Don't need button navigation */
 @supports (scroll-snap-type) {
   .slider > a {

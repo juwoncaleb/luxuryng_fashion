@@ -55,10 +55,14 @@ function Header() {
 
                         <Nav.Link onClick={() => router.push('/')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Home</p></Nav.Link>
                         <Nav.Link onClick={() => router.push('/Shop')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Al Product</p></Nav.Link>
-                        <Nav.Link onClick={() => router.push('/About')} className="ml-10 mt-1 capp text-white" href="#action2"><p >About Us</p></Nav.Link>
-                        <Nav.Link onClick={() => router.push('/Service')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Services</p></Nav.Link>
+                        <Nav.Link onClick={() => router.push('/About')} className="ml-10 mt-1 capp text-white" href="#action2"><p >CAPS</p></Nav.Link>
+                        <Nav.Link onClick={() => router.push('/Contact')} className="ml-10 mt-1 capp text-white" href="#action2"><p >CAPS</p></Nav.Link>
 
-                       
+                        <p>
+              <a href="https://www.instagram.com/luxuryclosetng/">
+                <i class="fab fa-instagram"> </i> <br />
+              </a>
+            </p>
 
                         {/* SHOPPING CART */}
 
