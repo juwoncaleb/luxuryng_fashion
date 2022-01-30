@@ -1,0 +1,62 @@
+import products from "../product/MenShoes/MenShoes";
+import Items from "../app/Items";
+import { useState } from "react";
+import "@fortawesome/fontawesome-free/js/all.js";
+
+function JacketComp() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  return (
+    <div>
+      <div class="block"><input type="text" placeholder="SEARCH" class="input-res"/>
+      
+      <div class="fa fa-search"></div>
+</div>
+
+{/*      
+      <div class="input-wrapper">
+        <input  onChange={(event) => {
+            setSearchTerm(event.target.value);
+          }}  class="kpk" type="text" placeholder="Search" />
+      </div> */}
+
+      {/* <div className="search">
+
+
+                <form class="form-search" method="get" action="#">
+                    <input type="search" name="search" placeholder="" />
+                    <button type="submit">Search</button>
+
+                </form>
+
+            </div> */}
+
+      <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
+        {products
+          .filter((val) => {
+            if (searchTerm == "") {
+              return val;
+            } else if (
+              val.name.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
+              return val;
+            }
+          })
+          .map(({ id, name, price, size, image }) => {
+            return (
+              <Items
+                key={id}
+                id={id}
+                name={name}
+                price={price}
+                size={size}
+                image={image}
+              />
+            );
+          })}
+      </div>
+    </div>
+  );
+}
+
+export default JacketComp;
