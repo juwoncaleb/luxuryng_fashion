@@ -28,22 +28,12 @@ function Items({ id, name, price, size, image, original, thumbnail }) {
         <div className="relative flex flex-col w-full m-0 md:m-5 bg-white z-30 p-10">
           <div class="sliderrr">
             <div class="slides">
-            <img id="slide-1"
-                  src={image}
-                  
-                  objectFit="contain"
-                  className="cursor-pointer images"
-                />
-              <div ><img                   src={image}
- /></div>
-              <div id="slide-2"><img                   src={image}
- /></div>
-              <div id="slide-3"><img                   src={image}
- /></div>
-              <div id="slide-4"><img                   src={image}
- /></div>
-              <div id="slide-5"><img                   src={image}
- /></div>
+              
+              <div id="slide-1">1</div>
+              <div id="slide-2">2</div>
+              <div id="slide-3">3</div>
+              <div id="slide-4">4</div>
+              <div id="slide-5">5</div>
             </div>
             
           </div>

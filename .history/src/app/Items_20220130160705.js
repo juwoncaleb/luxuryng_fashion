@@ -42,8 +42,7 @@ function Items({ id, name, price, size, image, original, thumbnail }) {
  /></div>
               <div id="slide-4"><img                   src={image}
  /></div>
-              <div id="slide-5"><img                   src={image}
- /></div>
+              <div id="slide-5">5</div>
             </div>
             
           </div>
