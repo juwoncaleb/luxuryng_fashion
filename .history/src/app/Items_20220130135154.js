@@ -74,7 +74,7 @@ function Items({ id, name, price, size, image, original, thumbnail }) {
                 />
               </div>
             </div>
-            <p className="mt-4  t	 font-bold">Slide toggle </p>
+            <p className="mt-4 t">Slide toggle </p>
 
           </div>
 
