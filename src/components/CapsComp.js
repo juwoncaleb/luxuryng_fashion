@@ -33,11 +33,11 @@ function CapsComp() {
             return (
               <Items
                 key={id}
+                id={id}
                 name={name}
                 price={price}
                 size={size}
                 image={image}
-                
               />
             );
           })}

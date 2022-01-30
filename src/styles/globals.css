@@ -2983,7 +2983,7 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 }
 
 
-.sliderr {
+.slider {
   margin-left: 17%;
   width: 300px;
   text-align: center;
@@ -3052,12 +3052,12 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 
 /* Don't need button navigation */
 @supports (scroll-snap-type) {
-  .sliderr > a {
+  .slider > a {
     display: none;
   }
 }
 
-.sliderr > a {
+.slider > a {
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -3069,10 +3069,10 @@ input[type="checkbox"] + label, input[type="radio"] + label {
   margin: 0 0 0.5rem 0;
   position: relative;
 }
-.sliderr > a:active {
+.slider > a:active {
   top: 1px;
 }
-.sliderr > a:focus {
+.slider > a:focus {
   background: #000;
 }
 

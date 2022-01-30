@@ -27,7 +27,7 @@ function Items({ id, name, price, size, image, original, thumbnail }) {
     <div className="w-screen">
       <div className=" w-full	 flex-col m-0 md:m-5 bg-white z-30 p-10">
         <div className="relative flex flex-col w-full m-0 md:m-5 bg-white z-30 p-10">
-          <div class="sliderr">
+          <div class="slider">
             <div class="slides">
               <div id="slide-1">
                 {" "}
@@ -79,7 +79,7 @@ function Items({ id, name, price, size, image, original, thumbnail }) {
 
           </div>
 
-          <p className=" itemsText  t font-semibold text-center display 	">{name}</p>
+          <p className=" itemsText  t font-semibold text-center display 	"></p>
           <p className="itemsText t font-semibold text-center display	">
             {" "}
             N{price}

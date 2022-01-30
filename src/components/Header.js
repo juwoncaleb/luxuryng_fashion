@@ -51,13 +51,28 @@ function Header() {
 
 
 
+                        <NavDropdown className="ml-10 mt-1 text-navbar text-base font-medium shirtt"
+                            title={<span className=" text-white text-base my-auto">SHIRTS</span>} id="dropdown-button-dark-example1">
+                            <NavDropdown.Item onClick={() => router.push('/Shirt')} href="#action/3.1"><p >SHIRTS</p></NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => router.push('/Jacket')} href="#action/3.2"><p >JACKET</p></NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => router.push('/SweatShirt')} href="#action/3.3"><p >SWEATSHIRTS</p></NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => router.push('/Hoodies')} href="#action/3.3"><p >HOODIE</p></NavDropdown.Item>
 
-                        <Nav.Link onClick={() => router.push('/')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Home</p></Nav.Link>
-                        <Nav.Link onClick={() => router.push('/Shop')} className="ml-10 mt-1 capp text-white" href="#action2"><p >All Product</p></Nav.Link>
+                        </NavDropdown>
+                        <NavDropdown className="ml-10 mt-1 trouserrs"
+                            title={<span className="text-white my-auto">PANTS</span>} id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1"><p > JEANS</p></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2"><p >JOGGERS</p></NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => router.push('/Shorts')} href="#action/3.3"><p >SHORTS</p></NavDropdown.Item>
+                        </NavDropdown>
+                        <NavDropdown className="ml-10 mt-1 footwear"
+                            title={<span className="text-white my-auto">SHOES</span>} id="basic-nav-dropdown">
+                            <NavDropdown.Item onClick={() => router.push('/Shoes')} href="#action/3.1"><p >SLIDES</p></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2"><p >SNEAKER</p></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3"><p >COVER SHOES</p></NavDropdown.Item>
+                        </NavDropdown>
 
-                        <Nav.Link onClick={() => router.push('/About')} className="ml-10 mt-1 capp text-white" href="#action2"><p >About us</p></Nav.Link>
-                        <Nav.Link onClick={() => router.push('/')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Contact us </p></Nav.Link>
-
+                        <Nav.Link onClick={() => router.push('/Caps')} className="ml-10 mt-1 capp text-white" href="#action2"><p >CAPS</p></Nav.Link>
 
 
 

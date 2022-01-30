@@ -44,7 +44,6 @@ function Footer() {
           </div>
           <div class="details">
             <h4 class="address font-semibold">Address</h4>
-            <p>LAGOS NIGERIA</p>
             <h4 class="mobile">Mobile</h4>
             <p>
               <a href="http://wa.me/+2348162353857">+9112233445</a>

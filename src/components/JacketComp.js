@@ -19,7 +19,7 @@ function JacketComp() {
         />
       </div>
 
-      
+      =
 
       <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3">
         {products
@@ -35,12 +35,12 @@ function JacketComp() {
           .map(({ id, name, price, size, image }) => {
             return (
               <Items
-              key={id}
-              name={name}
-              price={price}
-              size={size}
-              image={image}
-              
+                key={id}
+                id={id}
+                name={name}
+                price={price}
+                size={size}
+                image={image}
               />
             );
           })}

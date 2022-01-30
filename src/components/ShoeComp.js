@@ -33,12 +33,12 @@ function ShoeComp() {
           .map(({ id, name, price, size, image }) => {
             return (
               <Items
-              key={id}
-              name={name}
-              price={price}
-              size={size}
-              image={image}
-              
+                key={id}
+                id={id}
+                name={name}
+                price={price}
+                size={size}
+                image={image}
               />
             );
           })}
