@@ -51,24 +51,14 @@ function Header() {
 
 
 
-                        <NavDropdown className="ml-10 mt-1 text-navbar text-base font-medium shirtt"
-                            title={<span className=" text-white text-base my-auto">Home</span>} id="dropdown-button-dark-example1">
-                            
+                        
 
-                        </NavDropdown>
-                        <NavDropdown className="ml-10 mt-1 trouserrs"
-                            title={<span className="text-white my-auto">About Us</span>} id="basic-nav-dropdown">
-                        </NavDropdown>
-                        <NavDropdown className="ml-10 mt-1 footwear"
-                            title={<span className="text-white my-auto">All Products</span>} id="basic-nav-dropdown">
-                            
-                        </NavDropdown>
+                        <Nav.Link onClick={() => router.push('/')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Home</p></Nav.Link>
+                        <Nav.Link onClick={() => router.push('/Shop')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Al Product</p></Nav.Link>
+                        <Nav.Link onClick={() => router.push('/About')} className="ml-10 mt-1 capp text-white" href="#action2"><p >About Us</p></Nav.Link>
+                        <Nav.Link onClick={() => router.push('/Contact')} className="ml-10 mt-1 capp text-white" href="#action2"><p >Services</p></Nav.Link>
 
-                        <NavDropdown className="ml-10 mt-1 footwear"
-                            title={<span className="text-white my-auto">Services</span>} id="basic-nav-dropdown">
-                            
-                        </NavDropdown>
-
+                       
 
                         {/* SHOPPING CART */}
 

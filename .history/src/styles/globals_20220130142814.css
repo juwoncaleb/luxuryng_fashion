@@ -79,7 +79,6 @@ body{
   .carticon{
 position: relative;
 left: 180px;
-bottom: 100px;
   }
 }
 .navbar-collapse {
@@ -707,7 +706,6 @@ footer hr {
   .carticon {
     position: relative;
     left: 70px;
-    bottom: 5px;
     background-color: red;
   }
 }
@@ -716,7 +714,6 @@ footer hr {
   .carticon {
     position: relative;
     right: 30px;
-    bottom: 5px;
     background-color: red;
   }
 }
@@ -728,7 +725,6 @@ footer hr {
   .carticon {
     position: relative;
     right: 50px;
-    bottom: 10px;
     background-color: red;
   }
 }
@@ -743,7 +739,6 @@ footer hr {
   .carticon {
     position: relative;
     left: 70px;
-    bottom: 5px;
     background-color: red;
   }
 }
@@ -752,7 +747,6 @@ footer hr {
   .carticon {
     position: relative;
     right: 30px;
-    bottom: 5px;
     background-color: red;
   }
 }
@@ -3051,6 +3045,7 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 .author-info a {
   color: white;
 }
+.
 .sliderr > a {
   display: inline-flex;
   width: 1.5rem;

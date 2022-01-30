@@ -79,7 +79,6 @@ body{
   .carticon{
 position: relative;
 left: 180px;
-bottom: 100px;
   }
 }
 .navbar-collapse {
@@ -3051,6 +3050,7 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 .author-info a {
   color: white;
 }
+.
 .sliderr > a {
   display: inline-flex;
   width: 1.5rem;
