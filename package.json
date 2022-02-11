@@ -28,6 +28,7 @@
     "flutterwave-node": "^1.2.2",
     "flutterwave-react-v3": "^1.2.0",
     "gsap": "^3.8.0",
+    "imagekitio-react": "^1.1.0",
     "next": "^12.0.9",
     "next-auth": "^3.29.0",
     "next-transpile-modules": "^9.0.0",
@@ -43,6 +44,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-redux": "7.2.2",
     "react-responsive-carousel": "^3.2.22",
+    "redux-form": "^8.3.8",
     "redux-persist": "^6.0.0",
     "sass": "^1.49.0",
     "stripe": "^8.191.0"

@@ -29,15 +29,19 @@ function CapsComp() {
               return val;
             }
           })
-          .map(({ id, name, price, size, image }) => {
+          .map(({ id, name, price, size, image1, image2, image3 }) => {
             return (
               <Items
                 key={id}
-                id={id}
+               
                 name={name}
                 price={price}
                 size={size}
-                image={image}
+                image1={image1}
+                image2={image2}
+                image3={image3}
+
+
               />
             );
           })}
