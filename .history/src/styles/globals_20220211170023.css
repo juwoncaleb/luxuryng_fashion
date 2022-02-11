@@ -1270,7 +1270,7 @@ textarea {
 @media screen and (max-width: 454px) {
   .navbar-toggler  {
   position: relative;
-  left: 10px;
+  left: 80px;
   height: 35px;
   width: 45px;
   font-size: 15px !important
@@ -3597,11 +3597,14 @@ textarea {
 .flex-container{
 margin-left: 100px;
 }
-
+.collapse{
+  position: relative;
+  right: 100px;
+}
 .button.navbar-toggler{
   position: relative;
   right: 300px;
 }
 .carticon{
-
+  
 }
