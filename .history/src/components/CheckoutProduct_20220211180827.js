@@ -29,7 +29,7 @@ function CheckoutProduct({ id, image1, name, price, size , itemSize , count}) {
   let btncolor = () => setIsRed(!isRed);
 
   const [itemSize1, setItemSize1] = useState("");
-  console.log(image1);
+  console.log(ima);
 
   return (
     <div>
