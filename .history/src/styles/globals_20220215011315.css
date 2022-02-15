@@ -732,6 +732,7 @@ footer hr {
     position: relative;
     right: 50px;
     bottom: 10px;
+    background-color: red;
   }
 }
 
@@ -746,6 +747,7 @@ footer hr {
     position: relative;
     left: 70px;
     bottom: 5px;
+    background-color: red;
   }
 }
 @media (max-width: 658px)  {
@@ -754,6 +756,7 @@ footer hr {
     position: relative;
     right: 30px;
     bottom: 5px;
+    background-color: red;
   }
 }
 
@@ -765,6 +768,7 @@ footer hr {
     position: relative;
     right: 50px;
     bottom: 10px;
+    background-color: red;
   }
 }
 @media (max-width: 375px)  {
@@ -1346,7 +1350,7 @@ textarea {
   font-size: 17.5px;
   position: relative;
   top: 8px !important;
-  left: 20.6px;
+  left: 13.6px;
 }
 .icoon{
   height: 30px;

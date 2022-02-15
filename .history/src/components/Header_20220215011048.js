@@ -24,7 +24,7 @@ function Header() {
   const items = useSelector(selectItems);
 
   return (
-    <Navbar className="bg-black " expand="lg" sticky="top">
+    <Navbar className="bg- " expand="lg" sticky="top">
       <Container className=" header	">
         {/* IMAGE ICON */}
 
@@ -75,7 +75,7 @@ function Header() {
               {" "}
               {items.length}{" "}
             </span>
-            <Icon icon="mi:shopping-cart" color="white"  width="48" />
+            <span class="iconify" data-icon="mi:shopping-cart"  > </span>
           </div>
         </Nav.Link>
       </Container>

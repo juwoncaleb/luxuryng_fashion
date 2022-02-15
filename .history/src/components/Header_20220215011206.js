@@ -75,7 +75,7 @@ function Header() {
               {" "}
               {items.length}{" "}
             </span>
-            <Icon icon="mi:shopping-cart" color="white"  width="48" />
+            <Icon icon="mi:shopping-cart" color="white"  width="40" />
           </div>
         </Nav.Link>
       </Container>
