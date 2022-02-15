@@ -1,4 +1,4 @@
-const vondutch = [
+const CAP = [
   {
     id: "0" ,
     name: 'Von dutch pink',

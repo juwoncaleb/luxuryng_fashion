@@ -1,4 +1,4 @@
-const vondutch = [
+const condutch = [
   {
     id: "0" ,
     name: 'Von dutch pink',
