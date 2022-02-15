@@ -1230,10 +1230,12 @@ textarea {
 
   }
 }
-@media screen and (max-width: 425px) {
-  .headder {
-    
-height: 70px;
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+   
+
 
   }
 }

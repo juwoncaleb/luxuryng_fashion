@@ -1230,14 +1230,8 @@ textarea {
 
   }
 }
-@media screen and (max-width: 425px) {
-  .headder {
-    
-height: 70px;
 
-  }
-}
-
+headder
 @media screen and (max-width: 425px) {
   .navbar-toggler  {
   position: relative;

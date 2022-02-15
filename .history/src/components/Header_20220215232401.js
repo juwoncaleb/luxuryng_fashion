@@ -24,7 +24,7 @@ function Header() {
   const items = useSelector(selectItems);
 
   return (
-    <Navbar className="bg-black headder" expand="lg" sticky="top">
+    <Navbar className="bg-black " expand="lg" sticky="top">
       <Container className=" header	">
         {/* IMAGE ICON */}
 

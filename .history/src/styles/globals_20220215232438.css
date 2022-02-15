@@ -1230,13 +1230,6 @@ textarea {
 
   }
 }
-@media screen and (max-width: 425px) {
-  .headder {
-    
-height: 70px;
-
-  }
-}
 
 @media screen and (max-width: 425px) {
   .navbar-toggler  {
