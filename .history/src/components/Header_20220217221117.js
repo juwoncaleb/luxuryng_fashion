@@ -38,8 +38,6 @@ function Header() {
         <p className="text-white flex-1 mt-4 togglebutton">About Us</p>
         <p className="text-white flex-1 mt-4 togglebutton">Clothing</p>
         <input type="text" className="Searchbaar mt-4 togglebutton" />
-        <Icon icon="akar-icons:search" color="white" width="33" className="mt-6 ml-2 mr-2 seachlogo" />
-
 
         <p className="Togglle">
           {" "}
@@ -57,8 +55,7 @@ function Header() {
             setMobileToggle(!mobileToggle);
           } }
         >
-          <Icon icon="radix-icons:hamburger-menu" color="red" width="48" className="hamb" />
-
+          X
         </p>
       </div>
       {mobileToggle ? (
@@ -67,11 +64,7 @@ function Header() {
           <p className="text-white">Home</p>
           <p className="text-white">About Us</p>
           <p className="text-white">Clothing</p>
-          <div className="flex">
-          <input type="text" className="mobilesearch" placeholder=" " />
-          <Icon icon="akar-icons:search" color="white" width="33" className=" ml-2 mr-2 " />
-
-            </div>
+          <input type="text" className="mobilesearch" />
           <p className="text-white ">
              <span className="itemtextmobile">{items.length}</span>
             <Icon icon="mi:shopping-cart" color="white" width="48" />

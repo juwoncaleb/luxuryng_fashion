@@ -3891,19 +3891,13 @@ border-left: 4px solid white;
   border-radius: 10px;
 }
 
-@media screen and (min-width: 839px) {
+@media screen and (max-width: 839px) {
   /* inspiration */
   .hamb{
-   visibility: hidden;
+    position: relative;
+    right: 100px;
   }
 }
 
 
-
-@media screen and (max-width: 845px) {
-  /* inspiration */
-  .seachlogo{
-   visibility: hidden;
-  }
-}
 

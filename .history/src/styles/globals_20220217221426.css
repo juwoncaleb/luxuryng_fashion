@@ -3890,20 +3890,14 @@ border-left: 4px solid white;
   height: 30px;
   border-radius: 10px;
 }
-
-@media screen and (min-width: 839px) {
+hamb
+@media screen and (max-width: 499px) {
   /* inspiration */
-  .hamb{
-   visibility: hidden;
+  .Togglle{
+    position: relative;
+    right: 100px;
   }
 }
 
-
-
-@media screen and (max-width: 845px) {
-  /* inspiration */
-  .seachlogo{
-   visibility: hidden;
-  }
-}
+839
 

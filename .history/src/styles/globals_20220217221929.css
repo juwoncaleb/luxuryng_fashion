@@ -3900,7 +3900,7 @@ border-left: 4px solid white;
 
 
 
-@media screen and (max-width: 845px) {
+@media screen and (min-width: 839px) {
   /* inspiration */
   .seachlogo{
    visibility: hidden;

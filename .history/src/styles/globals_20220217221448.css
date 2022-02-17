@@ -3894,16 +3894,9 @@ border-left: 4px solid white;
 @media screen and (min-width: 839px) {
   /* inspiration */
   .hamb{
-   visibility: hidden;
+   visibility: h
   }
 }
 
 
-
-@media screen and (max-width: 845px) {
-  /* inspiration */
-  .seachlogo{
-   visibility: hidden;
-  }
-}
 

@@ -67,9 +67,9 @@ function Header() {
           <p className="text-white">Home</p>
           <p className="text-white">About Us</p>
           <p className="text-white">Clothing</p>
-          <div className="flex">
+          <div>
           <input type="text" className="mobilesearch" placeholder=" " />
-          <Icon icon="akar-icons:search" color="white" width="33" className=" ml-2 mr-2 " />
+          <Icon icon="akar-icons:search" color="white" width="33" className="mt-6 ml-2 mr-2 " />
 
             </div>
           <p className="text-white ">

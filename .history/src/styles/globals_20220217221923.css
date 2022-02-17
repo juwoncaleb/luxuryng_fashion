@@ -3898,11 +3898,11 @@ border-left: 4px solid white;
   }
 }
 
+.845
 
-
-@media screen and (max-width: 845px) {
+@media screen and (min-width: 839px) {
   /* inspiration */
-  .seachlogo{
+  .hamb{
    visibility: hidden;
   }
 }
