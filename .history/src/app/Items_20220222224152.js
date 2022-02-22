@@ -3,6 +3,9 @@ import { useDispatch } from "react-redux";
 import { addToBasket } from "../slices/basketSlice";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 import CheckoutProduct from "../components/CheckoutProduct";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
@@ -40,19 +43,20 @@ function Items({ id, name, price, size, image1, image2, image3 }) {
       <div className="itemContainer w-full	 flex-col m-0 md:m-5 bg-white z-30 p-10">
         <div className=" flex flex-col w-full m-0 md:m-5 bg-white z-30 p-10">
           <div className="bg-gray">
-            <div class="sliderrr ">
-              <div class="slides">
-                <div id="slide-1">
-                  <img src={image1} />
-                </div>
-                <div id="slide-2">
-                  <img src={image2} />
-                </div>
-                <div id="slide-3">
-                  <img src={image3} />
-                </div>
-              </div>
-            </div>
+          <Carousel
+            preventMovementUntilSwipeScrollTolerance={true}
+            swipeScrollTolerance={100}
+            useKeyboardArrows={true}
+            stopOnHover={false}
+            autoPlay
+            infiniteLoop
+            showArrows={false}
+            showIndicators={false}
+            showThumbs={false}
+            interval={4000}
+          > 
+          
+          </Carousel>
             <div className=" flex priceName  ">
               <div className="itemName">{name}</div>
               <span>{itemSize}</span> {count}

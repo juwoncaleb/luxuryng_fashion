@@ -105,7 +105,7 @@ function Items({ id, name, price, size, image1, image2, image3 }) {
               <p
                 onClick={() => {
                   setColor("white");
-                  setBackgroundColor("red");
+                  setBackgroundColor("white");
                   addItemToBasket()
                 }}
                 style={{ color: color, backgroundColor: backgroundColor }}
