@@ -36,7 +36,6 @@ function Items({ id, name, price, size, image1, image2, image3 }) {
 
   return (
     <div className="w-screen">
-
       <div className="itemContainer w-full	 flex-col m-0 md:m-5 bg-white z-30 p-10">
         <div className=" flex flex-col w-full m-0 md:m-5 bg-white z-30 p-10">
           <div className="bg-gray">
@@ -56,7 +55,7 @@ function Items({ id, name, price, size, image1, image2, image3 }) {
             <div className=" flex priceName  ">
               <div className="itemName">{name}</div>
               <span>{itemSize}</span> {count}
-              <div className="itemPrice">{price}</div>
+              <div className="itemPrice"></div>
             </div>
             <div class="itt flex ">
               <div className="flex itemmSize mt-2">

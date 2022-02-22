@@ -36,6 +36,7 @@ function Items({ id, name, price, size, image1, image2, image3 }) {
 
   return (
     <div className="w-screen">
+               <h1>CAPS</h1>
 
       <div className="itemContainer w-full	 flex-col m-0 md:m-5 bg-white z-30 p-10">
         <div className=" flex flex-col w-full m-0 md:m-5 bg-white z-30 p-10">
