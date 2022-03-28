@@ -70,30 +70,6 @@ function Checkout() {
             >
               
 
-              <div class="telephone">
-                <label for="name"></label>
-                <input
-                  className="payment_form"
-                  type="text"
-                  placeholder="First Name"
-                  name="telephone"
-                  id="telephone_input"
-                  required
-                />
-              </div>
-             
-              <div class="telephone">
-                <label for="name"></label>
-                <input
-                  className="payment_form"
-                  type="text"
-                  placeholder="Surname"
-                  name="telephone"
-                  id="telephone_input"
-                  required
-                />
-              </div>
-             
              
 
               <div class="telephone">

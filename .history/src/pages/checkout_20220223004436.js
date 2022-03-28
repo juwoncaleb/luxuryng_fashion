@@ -68,32 +68,29 @@ function Checkout() {
               method="POST"
               id="contact_form"
             >
-              
-
-              <div class="telephone">
+              <div class="name">
                 <label for="name"></label>
                 <input
                   className="payment_form"
                   type="text"
                   placeholder="First Name"
-                  name="telephone"
-                  id="telephone_input"
+                  name="name"
+                  id="name_input"
                   required
                 />
               </div>
-             
-              <div class="telephone">
+              <div class="name">
                 <label for="name"></label>
                 <input
                   className="payment_form"
                   type="text"
                   placeholder="Surname"
-                  name="telephone"
-                  id="telephone_input"
+                  name="name"
+                  id="name_input"
                   required
                 />
               </div>
-             
+
              
 
               <div class="telephone">

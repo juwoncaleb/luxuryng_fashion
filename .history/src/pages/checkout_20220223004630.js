@@ -87,7 +87,7 @@ function Checkout() {
                 <input
                   className="payment_form"
                   type="text"
-                  placeholder="Surname"
+                  placeholder="My number is"
                   name="telephone"
                   id="telephone_input"
                   required

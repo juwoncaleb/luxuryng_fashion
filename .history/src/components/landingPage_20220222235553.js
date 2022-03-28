@@ -3,7 +3,6 @@ import { Container, Col, Row } from "react-bootstrap";
 
 import { Carousel } from "react-responsive-carousel";
 import "@fortawesome/fontawesome-free/js/all.js";
-import Header  from "../components/Header";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Footer from "./Footer";
@@ -17,6 +16,7 @@ function LandingPage() {
     <div>
       {/* landing page 1/4 */}
       <div className="grid ">
+        <Headers/>
         <div className="relative">
           <div className="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
 

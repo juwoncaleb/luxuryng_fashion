@@ -31,7 +31,7 @@ function Header() {
     <div>
       <div className="landscape flex fixed  ">
         <img
-          className="lux cursor-pointer flex-1 	"
+          className="lux cursor-pointer flex-1 mt-2	"
           onClick={() => router.push("/")}
           src="/img/logo.png"
         />
@@ -44,7 +44,7 @@ function Header() {
         <Icon icon="akar-icons:search" color="white" width="33" className="mt-6 ml-2 mr-2 seachlogo" />
 
 
-        <p onClick={() => router.push("/checkout")} className="Togglle mb-2 cursor-pointer">
+        <p onClick={() => router.push("/checkout")} className="Togglle mn-2 cursor-pointer">
           {" "}
           <span className="text-white itemlenght">{items.length}</span>{" "}
           <Icon

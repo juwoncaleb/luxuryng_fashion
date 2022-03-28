@@ -24,14 +24,13 @@ function Header() {
   const router = useRouter();
   const items = useSelector(selectItems);
   const [mobileToggle, setMobileToggle] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
 
 
   return (
     <div>
-      <div className="landscape flex fixed  ">
+      <div className="landscape flex ">
         <img
-          className="lux cursor-pointer flex-1 	"
+          className="lux cursor-pointer flex-1 mt-2	"
           onClick={() => router.push("/")}
           src="/img/logo.png"
         />
@@ -44,7 +43,7 @@ function Header() {
         <Icon icon="akar-icons:search" color="white" width="33" className="mt-6 ml-2 mr-2 seachlogo" />
 
 
-        <p onClick={() => router.push("/checkout")} className="Togglle mb-2 cursor-pointer">
+        <p onClick={() => router.push("/checkout")} className="Togglle cursor-pointer">
           {" "}
           <span className="text-white itemlenght">{items.length}</span>{" "}
           <Icon
@@ -54,15 +53,6 @@ function Header() {
             width="48"
           />
         </p>
-
-
-
-
-
-
-
-
-
         <p
           className="text-white flex-1 mt-4 Togglle"
           onClick={() => {
@@ -80,9 +70,7 @@ function Header() {
           <p className="text-white">About Us</p>
           <p className="text-white">Clothing</p>
           <div className="flex">
-          <input   onChange={(event) => {
-            setSearchTerm(event.target.value);
-          }} type="text" className="mobilesearch" placeholder=" " />
+          <input type="text" className="mobilesearch" placeholder=" " />
           <Icon icon="akar-icons:search" color="white" width="33" className=" ml-2 mr-2 " />
 
             </div>

@@ -31,7 +31,7 @@ function Header() {
     <div>
       <div className="landscape flex fixed  ">
         <img
-          className="lux cursor-pointer flex-1 	"
+          className="lux cursor-pointer flex-1 mt-2	"
           onClick={() => router.push("/")}
           src="/img/logo.png"
         />
